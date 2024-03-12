@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Home Technology";
+}
+
+<div class="jumbotron">
+    <h1>Home - Technology Notification Url</h1>
+</div>
+
+<ul>
+    <li>
+        Id transaction :@ViewData["cpm_trans_id"]
+    </li>
+    <li>
+        Status de la transaction :@ViewData["cpm_trans_status"]
+    </li>
+    <li>
+        Date de la transaction :@ViewData["cpm_trans_date"]
+    </li>
+    <li>
+        Montant de la transaction :@ViewData["cpm_amount"]
+    </li>
+    <li>
+        Désignation :@ViewData["cpm_designation"]
+    </li>
+    <li>
+        Téléphone :@ViewData["cel_phone_num"]
+    </li>
+
+</ul>

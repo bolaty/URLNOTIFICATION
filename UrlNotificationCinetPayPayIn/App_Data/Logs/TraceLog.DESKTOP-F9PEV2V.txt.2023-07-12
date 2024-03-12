@@ -1,0 +1,23 @@
+2023-07-12 11:11:31,381 [6] ERROR LogFileAppender - Cinetpay :e06a02c3-b05a-44b3-a9ac-9b3b967b4646
+2023-07-12 11:12:47,758 [6] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.
+2023-07-12 11:14:18,410 [6] ERROR LogFileAppender - Cinetpay :e06a02c3-b05a-44b3-a9ac-9b3b967b4646
+2023-07-12 11:15:36,467 [6] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-07-12 11:19:27,161 [6] ERROR LogFileAppender - Cinetpay :a028ljyq3c5yqvhdagv4ou
+2023-07-12 11:20:45,158 [6] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-07-12 11:21:50,089 [6] ERROR LogFileAppender - Cinetpay :a028ljyq3c5yqvhdagv4ou
+2023-07-12 11:25:22,603 [6] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-07-12 11:38:07,673 [31] ERROR LogFileAppender - Cinetpay :2c7649af-c820-4faa-b62b-18f8e7d4969b
+2023-07-12 11:43:12,575 [31] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-12 11:43:21,587 [31] ERROR LogFileAppender - Cinetpay :2c7649af-c820-4faa-b62b-18f8e7d4969b
+2023-07-12 11:48:57,486 [24] ERROR LogFileAppender - Cinetpay :598874d8-ad5d-4f75-bd84-7362939a90ab
+2023-07-12 11:49:15,059 [24] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.
+2023-07-12 11:50:03,482 [24] ERROR LogFileAppender - Cinetpay :598874d8-ad5d-4f75-bd84-7362939a90ab
+2023-07-12 11:51:02,535 [24] ERROR LogFileAppender - Cinetpay :598874d8-ad5d-4f75-bd84-7362939a90ab
+2023-07-12 11:52:26,132 [24] ERROR LogFileAppender - Cinetpay :598874d8-ad5d-4f75-bd84-7362939a90ab
+2023-07-12 11:54:09,857 [6] ERROR LogFileAppender - Cinetpay :598874d8-ad5d-4f75-bd84-7362939a90ab
+2023-07-12 12:09:36,534 [7] ERROR LogFileAppender - Cinetpay :2c7649af-c820-4faa-b62b-18f8e7d4969b
+2023-07-12 12:11:16,793 [7] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-12 12:21:26,364 [8] ERROR LogFileAppender - Cinetpay :1678386550036
+2023-07-12 12:24:15,180 [8] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.
+2023-07-12 12:25:47,598 [8] ERROR LogFileAppender - Cinetpay :1678386550036
+2023-07-12 12:28:35,145 [17] ERROR LogFileAppender - Cinetpay :1678386550036

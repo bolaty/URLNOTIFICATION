@@ -1,0 +1,12 @@
+2023-05-04 18:58:07,646 [12] ERROR LogFileAppender - Cinetpay :6b1cd3a3-93b9-410c-bbc8-9fe39dff610f
+2023-05-04 19:01:42,190 [12] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-05-04 19:01:56,430 [7] ERROR LogFileAppender - Cinetpay :6b1cd3a3-93b9-410c-bbc8-9fe39dff610f
+2023-05-04 19:06:11,785 [7] ERROR LogFileAppender - Cinetpay :c7cfbf17-6737-4f92-8cde-6f136d5e7f88
+2023-05-04 19:22:15,876 [5] ERROR LogFileAppender - Cinetpay :c7cfbf17-6737-4f92-8cde-6f136d5e7f88
+2023-05-04 19:23:18,069 [5] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-05-04 19:24:01,599 [5] ERROR LogFileAppender - Cinetpay :c7cfbf17-6737-4f92-8cde-6f136d5e7f88
+2023-05-04 19:25:49,608 [5] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-05-04 19:27:45,546 [5] ERROR LogFileAppender - Cinetpay :c7cfbf17-6737-4f92-8cde-6f136d5e7f88
+2023-05-04 19:30:08,000 [5] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-05-04 19:30:22,879 [7] ERROR LogFileAppender - Cinetpay :c7cfbf17-6737-4f92-8cde-6f136d5e7f88
+2023-05-04 19:30:55,258 [7] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.

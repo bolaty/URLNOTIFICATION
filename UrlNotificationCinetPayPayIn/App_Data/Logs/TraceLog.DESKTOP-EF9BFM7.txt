@@ -1,0 +1,12 @@
+2023-04-29 00:24:37,673 [82] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-04-29 00:24:47,797 [82] ERROR LogFileAppender - Cinetpay :cdecbd58-6ea0-454c-82e5-ea4163e696a0
+2023-04-29 00:25:08,081 [82] ERROR LogFileAppender - Cinetpay :cdecbd58-6ea0-454c-82e5-ea4163e696a0
+2023-04-29 00:33:43,367 [82] ERROR LogFileAppender - Cinetpay :Le format de la chaîne d'entrée est incorrect.
+2023-04-29 00:34:01,049 [82] ERROR LogFileAppender - Cinetpay :cdecbd58-6ea0-454c-82e5-ea4163e696a0
+2023-04-29 00:35:53,610 [82] ERROR LogFileAppender - Cinetpay :Le format de la chaîne d'entrée est incorrect.
+2023-04-29 00:36:26,121 [82] ERROR LogFileAppender - Cinetpay :cdecbd58-6ea0-454c-82e5-ea4163e696a0
+2023-04-29 00:39:05,196 [82] ERROR LogFileAppender - Cinetpay :L'index et le compte doivent faire référence à un emplacement situé dans la chaîne.
+Nom du paramètre : count
+2023-04-29 00:40:51,036 [19] ERROR LogFileAppender - Cinetpay :cdecbd58-6ea0-454c-82e5-ea4163e696a0
+2023-04-29 00:47:35,020 [19] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-04-29 02:20:59,154 [92] ERROR LogFileAppender - Cinetpay :cdecbd58-6ea0-454c-82e5-ea4163e696a0

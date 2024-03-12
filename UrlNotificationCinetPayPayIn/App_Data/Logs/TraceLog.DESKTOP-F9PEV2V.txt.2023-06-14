@@ -1,0 +1,12 @@
+2023-06-14 14:50:15,022 [6] ERROR LogFileAppender - Cinetpay :13617e51-cd30-4624-be46-f356136ce78b
+2023-06-14 14:53:41,344 [6] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-06-14 15:01:16,878 [6] ERROR LogFileAppender - Cinetpay :13617e51-cd30-4624-be46-f356136ce78b
+2023-06-14 15:03:06,252 [6] ERROR LogFileAppender - Cinetpay :La demande a été abandonnée : Le délai d'attente de l'opération a expiré..
+2023-06-14 16:34:30,553 [7] ERROR LogFileAppender - Cinetpay :b60a0865-b315-45ae-81a5-82b9f5e693f3
+2023-06-14 16:35:19,956 [7] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.
+2023-06-14 16:41:25,259 [8] ERROR LogFileAppender - Cinetpay :b60a0865-b315-45ae-81a5-82b9f5e693f3
+2023-06-14 16:43:07,702 [8] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-06-14 16:43:35,956 [7] ERROR LogFileAppender - Cinetpay :b60a0865-b315-45ae-81a5-82b9f5e693f3
+2023-06-14 18:18:42,649 [6] ERROR LogFileAppender - Cinetpay :3c88liw0w20oo8a48zdhn4j
+2023-06-14 18:19:07,551 [6] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2023-06-14 18:20:51,195 [7] ERROR LogFileAppender - Cinetpay :3c88liw0w20oo8a48zdhn4j

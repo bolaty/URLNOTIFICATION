@@ -1,0 +1,5 @@
+2022-05-23 19:56:46,750 [5] ERROR LogFileAppender - Cinetpay :2698a37b-ade4-4144-9cf7-721ac2b05374
+2022-05-23 19:57:33,697 [5] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2022-05-23 20:13:32,228 [5] ERROR LogFileAppender - Cinetpay :2698a37b-ade4-4144-9cf7-721ac2b05374
+2022-05-23 20:16:03,454 [7] ERROR LogFileAppender - Cinetpay :2698a37b-ade4-4144-9cf7-721ac2b05374
+2022-05-23 20:17:29,246 [7] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.

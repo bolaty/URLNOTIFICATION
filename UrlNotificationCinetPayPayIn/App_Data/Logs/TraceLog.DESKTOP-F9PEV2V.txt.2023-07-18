@@ -1,0 +1,23 @@
+2023-07-18 10:18:24,509 [5] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 10:21:13,584 [5] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 10:23:09,397 [18] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 10:23:54,302 [5] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 10:24:52,573 [18] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 10:25:57,312 [18] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.
+2023-07-18 10:27:17,453 [6] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 10:27:32,930 [6] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2023-07-18 10:28:14,935 [6] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 10:29:22,275 [7] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 10:34:17,083 [6] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 10:36:25,975 [6] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 10:39:17,329 [6] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-18 10:58:19,428 [25] ERROR LogFileAppender - Cinetpay :47ad9493-fd6a-4bb4-a716-6301b00f29f6
+2023-07-18 15:48:17,931 [13] ERROR LogFileAppender - Cinetpay :bfb0b21c-565c-4ebc-875d-8ae83f69121a
+2023-07-18 15:54:45,971 [13] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-18 17:50:06,861 [22] ERROR LogFileAppender - Cinetpay :28f1lk8k7owzlk09fdkf7h
+2023-07-18 17:54:43,828 [22] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-18 17:55:17,353 [37] ERROR LogFileAppender - Cinetpay :28f1lk8k7owzlk09fdkf7h
+2023-07-18 17:57:02,407 [37] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-18 19:29:08,578 [120] ERROR LogFileAppender - Cinetpay :697clk8ngh0b583ecfo99em
+2023-07-18 19:30:54,087 [120] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-18 20:25:25,556 [110] ERROR LogFileAppender - Cinetpay :697clk8ngh0b583ecfo99em

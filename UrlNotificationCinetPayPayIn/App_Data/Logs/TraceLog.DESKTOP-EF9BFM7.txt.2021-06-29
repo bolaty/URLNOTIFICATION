@@ -1,0 +1,28 @@
+2021-06-29 14:31:26,813 [7] ERROR LogFileAppender - Cinetpay :1621449664690
+2021-06-29 14:36:05,582 [5] ERROR LogFileAppender - Cinetpay :1621449664690
+2021-06-29 14:40:23,948 [5] ERROR LogFileAppender - Cinetpay :1621449664690
+2021-06-29 14:41:31,557 [5] ERROR LogFileAppender - Cinetpay :1621449664690
+2021-06-29 14:42:48,898 [5] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 14:46:08,341 [9] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 14:50:26,853 [5] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 14:52:00,082 [59] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 14:52:38,354 [5] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 14:54:20,148 [5] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2021-06-29 15:02:17,895 [7] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 15:06:41,513 [6] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 15:08:23,156 [6] ERROR LogFileAppender - Cinetpay :La demande a été abandonnée : Le délai d'attente de l'opération a expiré..
+2021-06-29 15:11:34,399 [18] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 15:13:16,014 [18] ERROR LogFileAppender - Cinetpay :La demande a été abandonnée : Le délai d'attente de l'opération a expiré..
+2021-06-29 15:28:35,773 [50] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 15:30:36,412 [47] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 15:33:15,472 [5] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 16:17:13,200 [5] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2021-06-29 16:17:25,405 [5] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 16:22:11,830 [5] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 16:25:49,668 [5] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2021-06-29 16:25:56,104 [5] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 16:27:54,178 [5] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Le serveur a fermé une connexion qui devait être maintenue active.
+2021-06-29 16:28:04,281 [5] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 20:16:53,204 [6] ERROR LogFileAppender - Cinetpay :1606840101189
+2021-06-29 20:17:23,493 [6] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Le serveur a fermé une connexion qui devait être maintenue active.
+2021-06-29 20:23:41,135 [20] ERROR LogFileAppender - Cinetpay :1606840101189

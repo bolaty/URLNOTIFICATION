@@ -1,0 +1,15 @@
+2023-05-19 17:48:18,341 [80] ERROR LogFileAppender - Cinetpay :27d3lhuru7k6b3r98q14315
+2023-05-19 17:59:57,803 [8] ERROR LogFileAppender - Cinetpay :27d3lhuru7k6b3r98q14315
+2023-05-19 18:02:32,884 [62] ERROR LogFileAppender - Cinetpay :27d3lhuru7k6b3r98q14315
+2023-05-19 18:09:18,263 [5] ERROR LogFileAppender - Cinetpay :27d3lhuru7k6b3r98q14315
+2023-05-19 18:58:55,204 [5] ERROR LogFileAppender - Cinetpay :27d3lhuru7k6b3r98q14315
+2023-05-19 18:58:55,725 [5] ERROR LogFileAppender - Cinetpay :startIndex ne peut pas être supérieur à la longueur de la chaîne.
+Nom du paramètre : startIndex
+2023-05-19 18:59:34,731 [5] ERROR LogFileAppender - Cinetpay :27d3lhuru7k6b3r98q14315
+2023-05-19 18:59:35,090 [5] ERROR LogFileAppender - Cinetpay :startIndex ne peut pas être supérieur à la longueur de la chaîne.
+Nom du paramètre : startIndex
+2023-05-19 18:59:54,151 [6] ERROR LogFileAppender - Cinetpay :27d3lhuru7k6b3r98q14315
+2023-05-19 19:00:17,263 [6] ERROR LogFileAppender - Cinetpay :startIndex ne peut pas être supérieur à la longueur de la chaîne.
+Nom du paramètre : startIndex
+2023-05-19 19:02:26,758 [6] ERROR LogFileAppender - Cinetpay :27d3lhuru7k6b3r98q14315
+2023-05-19 19:04:32,910 [5] ERROR LogFileAppender - Cinetpay :27d3lhuru7k6b3r98q14315

@@ -1,0 +1,197 @@
+
+
+
+
+ERROR GETSTATUSPAY
+PERIODE: 18/03/2021 10:35:52
+MESSAGE: {
+	"status":{
+		"code":"613",
+		"message":"ERROR_SITE_ID_NOTVALID"
+	}
+} 
+
+ERROR GETPAYSTATUS
+PERIODE: 18/03/2021 10:35:52
+MESSAGE: Un probleme est survenu lors de l'appel du WS ! Impossible de calculer la signature 
+
+ERROR GETPAYSTATUS
+PERIODE: 18/03/2021 10:55:41
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 18/03/2021 14:42:01
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 18/03/2021 17:03:46
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 25/05/2021 01:47:30
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 29/06/2021 14:31:37
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 29/06/2021 14:36:47
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 29/06/2021 14:40:35
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 29/06/2021 14:41:41
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 03/02/2022 15:33:30
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 03/02/2022 17:18:09
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 03/02/2022 18:18:22
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 23/05/2022 20:17:00
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 07/06/2022 18:13:23
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETSTATUSPAY
+PERIODE: 24/06/2022 20:52:28
+MESSAGE: Une erreur s'est produite lors de l'envoi de la demande. 
+Une erreur s'est produite lors de l'envoi de la demande. 
+System.Net.WebException: Le nom distant n'a pas pu être résolu: 'api.cinetpay.com'
+   à System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   à System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar) 
+
+ERROR GETPAYSTATUS
+PERIODE: 24/06/2022 20:52:28
+MESSAGE: Un probleme est survenu lors de l'appel du WS ! Une erreur s'est produite lors de l'envoi de la demande. 
+
+ERROR GETSTATUSPAY
+PERIODE: 24/06/2022 20:53:12
+MESSAGE: Une erreur s'est produite lors de l'envoi de la demande. 
+Une erreur s'est produite lors de l'envoi de la demande. 
+System.Net.WebException: Le nom distant n'a pas pu être résolu: 'api.cinetpay.com'
+   à System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   à System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar) 
+
+ERROR GETPAYSTATUS
+PERIODE: 24/06/2022 20:53:12
+MESSAGE: Un probleme est survenu lors de l'appel du WS ! Une erreur s'est produite lors de l'envoi de la demande. 
+
+ERROR GETSTATUSPAY
+PERIODE: 24/06/2022 20:54:06
+MESSAGE: Une erreur s'est produite lors de l'envoi de la demande. 
+Une erreur s'est produite lors de l'envoi de la demande. 
+System.Net.WebException: Le nom distant n'a pas pu être résolu: 'api.cinetpay.com'
+   à System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   à System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar) 
+
+ERROR GETPAYSTATUS
+PERIODE: 24/06/2022 20:54:06
+MESSAGE: Un probleme est survenu lors de l'appel du WS ! Une erreur s'est produite lors de l'envoi de la demande. 
+
+ERROR GETPAYSTATUS
+PERIODE: 12/07/2023 11:50:31
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 12/07/2023 11:51:10
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 12/07/2023 11:55:52
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 12/07/2023 12:27:13
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+
+ERROR GETPAYSTATUS
+PERIODE: 12/07/2023 12:32:54
+MESSAGE: Problème lié au GetPayStatus de la transaction. Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+Error converting value {null} to type 'System.Decimal'. Path 'transaction.cpm_amount', line 5, position 20. 
+System.InvalidCastException: Impossible de convertir un objet null en un type valeur.
+   à System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   à Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 
+

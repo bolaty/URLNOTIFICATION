@@ -1,0 +1,14 @@
+2021-05-25 01:47:28,900 [6] ERROR LogFileAppender - Cinetpay :1000
+2021-05-25 01:49:05,527 [6] ERROR LogFileAppender - Cinetpay :1621253464046
+2021-05-25 01:54:14,684 [8] ERROR LogFileAppender - Cinetpay :1621253464046
+2021-05-25 01:55:20,152 [6] ERROR LogFileAppender - Cinetpay :1621253464046
+2021-05-25 02:00:14,685 [7] ERROR LogFileAppender - Cinetpay :1621253464046
+2021-05-25 02:02:55,479 [7] ERROR LogFileAppender - Cinetpay :1621253464046
+2021-05-25 02:05:06,900 [5] ERROR LogFileAppender - Cinetpay :1621253464046
+2021-05-25 02:06:44,541 [5] ERROR LogFileAppender - Cinetpay :Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+2021-05-25 02:07:40,338 [8] ERROR LogFileAppender - Cinetpay :1621253464046
+2021-05-25 02:10:10,775 [6] ERROR LogFileAppender - Cinetpay :1621253464046
+2021-05-25 02:12:16,351 [6] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Le serveur a fermé une connexion qui devait être maintenue active.
+2021-05-25 02:12:22,281 [6] ERROR LogFileAppender - Cinetpay :1621253464046
+2021-05-25 02:14:06,225 [6] ERROR LogFileAppender - Cinetpay :La demande a été abandonnée : Le délai d'attente de l'opération a expiré..
+2021-05-25 02:15:53,405 [6] ERROR LogFileAppender - Cinetpay :1621253464046

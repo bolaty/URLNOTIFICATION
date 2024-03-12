@@ -1,0 +1,8 @@
+2023-07-03 09:49:57,478 [8] ERROR LogFileAppender - Cinetpay :3c88liw0w20oo8a48zdhn4j
+2023-07-03 09:50:16,235 [8] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-07-03 09:50:41,449 [7] ERROR LogFileAppender - Cinetpay :3c88liw0w20oo8a48zdhn4j
+2023-07-03 09:54:03,783 [7] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-07-03 19:11:39,897 [8] ERROR LogFileAppender - Cinetpay :bf4ac155-2a7c-4ace-8bbb-023b62975f77
+2023-07-03 19:13:34,477 [8] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.
+2023-07-03 19:14:24,629 [6] ERROR LogFileAppender - Cinetpay :bf4ac155-2a7c-4ace-8bbb-023b62975f77
+2023-07-03 19:23:43,358 [6] ERROR LogFileAppender - Cinetpay :bf4ac155-2a7c-4ace-8bbb-023b62975f77

@@ -1,0 +1,20 @@
+2023-05-17 15:20:40,235 [11] ERROR LogFileAppender - Cinetpay :6d8dlhqj6zffhr2uq6fo9zw
+2023-05-17 15:20:57,540 [11] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.
+2023-05-17 15:21:10,514 [6] ERROR LogFileAppender - Cinetpay :6d8dlhqj6zffhr2uq6fo9zw
+2023-05-17 15:21:18,650 [6] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2023-05-17 15:21:33,493 [6] ERROR LogFileAppender - Cinetpay :6d8dlhqj6zffhr2uq6fo9zw
+2023-05-17 15:21:37,583 [6] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2023-05-17 15:33:32,161 [8] ERROR LogFileAppender - Cinetpay :6d8dlhqj6zffhr2uq6fo9zw
+2023-05-17 15:33:36,379 [8] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2023-05-17 15:34:02,900 [6] ERROR LogFileAppender - Cinetpay :6d8dlhqj6zffhr2uq6fo9zw
+2023-05-17 15:34:07,036 [6] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2023-05-17 15:36:17,580 [6] ERROR LogFileAppender - Cinetpay :6d8dlhqj6zffhr2uq6fo9zw
+2023-05-17 15:36:21,774 [6] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2023-05-17 15:36:45,442 [6] ERROR LogFileAppender - Cinetpay :
+2023-05-17 15:37:04,418 [6] ERROR LogFileAppender - Cinetpay :
+2023-05-17 15:53:35,384 [31] ERROR LogFileAppender - Cinetpay :3567lhrvifxj1r68cvb5ste
+2023-05-17 15:56:51,667 [31] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-05-17 15:58:44,529 [31] ERROR LogFileAppender - Cinetpay :3567lhrvifxj1r68cvb5ste
+2023-05-17 16:12:57,363 [48] ERROR LogFileAppender - Cinetpay :cd1fbe89-01c4-4d7e-b66e-609e9a8e6071
+2023-05-17 16:12:57,476 [48] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-05-17 16:15:00,519 [30] ERROR LogFileAppender - Cinetpay :ceb8lhqju3gwzf8wz88b9aj

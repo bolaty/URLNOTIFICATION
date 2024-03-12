@@ -1,0 +1,50 @@
+2023-07-19 11:14:43,263 [7] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 11:16:32,616 [7] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 11:18:16,758 [7] ERROR LogFileAppender - Cinetpay :La demande a été abandonnée : Le délai d'attente de l'opération a expiré..
+2023-07-19 11:58:49,181 [6] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 11:59:32,925 [6] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-07-19 11:59:44,824 [15] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 12:00:21,240 [15] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-07-19 12:08:00,635 [15] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 12:09:16,535 [15] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 12:11:03,955 [15] ERROR LogFileAppender - Cinetpay :La demande a été abandonnée : Le délai d'attente de l'opération a expiré..
+2023-07-19 12:12:01,578 [38] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 12:13:45,789 [38] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-19 12:22:41,716 [57] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 12:22:45,815 [57] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2023-07-19 12:27:29,137 [8] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 12:27:33,351 [8] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2023-07-19 12:27:45,181 [6] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 12:28:08,605 [6] ERROR LogFileAppender - Cinetpay :Impossible de se connecter au serveur distant
+2023-07-19 12:28:37,486 [6] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 12:30:27,690 [6] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-19 12:40:40,126 [26] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 12:41:03,918 [30] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 12:41:43,114 [26] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-07-19 12:43:03,542 [30] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
+2023-07-19 14:00:52,399 [5] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 14:07:22,154 [5] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-19 14:14:25,773 [6] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 14:16:23,377 [6] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-19 14:16:30,478 [6] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 14:18:10,550 [6] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-19 14:20:11,858 [6] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 14:39:26,158 [6] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-19 14:39:30,639 [26] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 14:40:43,001 [26] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.
+2023-07-19 14:43:07,861 [6] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 14:44:53,400 [6] ERROR LogFileAppender - Cinetpay :La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.
+2023-07-19 14:52:49,394 [50] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 14:56:24,404 [34] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 14:57:59,713 [50] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 16:43:20,285 [9] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 16:43:26,357 [9] ERROR LogFileAppender - Cinetpay :Le serveur distant a retourné une erreur : (500) Erreur interne du serveur.
+2023-07-19 16:43:46,873 [6] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 16:43:57,634 [6] ERROR LogFileAppender - Cinetpay :Le serveur distant a retourné une erreur : (500) Erreur interne du serveur.
+2023-07-19 16:46:44,347 [8] ERROR LogFileAppender - Cinetpay :2c40lk9lq8pde7clxixnyg
+2023-07-19 18:50:46,631 [18] ERROR LogFileAppender - Cinetpay :b7e0lka17bm5uypyx4nhn69
+2023-07-19 18:54:06,612 [15] ERROR LogFileAppender - Cinetpay :b7e0lka17bm5uypyx4nhn69
+2023-07-19 18:58:47,117 [8] ERROR LogFileAppender - Cinetpay :b7e0lka17bm5uypyx4nhn69
+2023-07-19 19:00:32,416 [8] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-07-19 19:35:41,132 [74] ERROR LogFileAppender - Cinetpay :b7e0lka17bm5uypyx4nhn69
+2023-07-19 19:38:13,998 [74] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.

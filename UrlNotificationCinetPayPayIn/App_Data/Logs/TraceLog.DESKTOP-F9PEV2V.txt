@@ -1,0 +1,8 @@
+2024-02-19 19:15:33,052 [5] ERROR LogFileAppender - Cinetpay :001022edelst6k0plr2fqrsp2
+2024-02-19 19:18:43,813 [5] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2024-02-19 19:20:02,875 [13] ERROR LogFileAppender - Cinetpay :001022edelst6k0plr2fqrsp2
+2024-02-19 19:22:20,919 [13] ERROR LogFileAppender - Cinetpay :Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+2024-02-19 19:23:02,966 [5] ERROR LogFileAppender - Cinetpay :001022edelst6k0plr2fqrsp2
+2024-02-19 19:25:50,871 [5] ERROR LogFileAppender - Cinetpay :001022edelst6k0plr2fqrsp2
+2024-02-19 19:51:26,486 [43] ERROR LogFileAppender - Cinetpay :001022edelst6k0plr2fqrsp2
+2024-02-19 20:10:29,206 [17] ERROR LogFileAppender - Cinetpay :001022edelst6k0plr2fqrsp2

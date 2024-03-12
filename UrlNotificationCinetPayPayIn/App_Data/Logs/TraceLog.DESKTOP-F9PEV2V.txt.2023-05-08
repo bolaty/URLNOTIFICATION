@@ -1,0 +1,15 @@
+2023-05-08 09:12:58,781 [30] ERROR LogFileAppender - Cinetpay :71498eba-7945-43bd-930f-6ab09911a8fb
+2023-05-08 09:14:41,200 [30] ERROR LogFileAppender - Cinetpay :L'index et le compte doivent faire référence à un emplacement situé dans la chaîne.
+Nom du paramètre : count
+2023-05-08 09:20:36,054 [6] ERROR LogFileAppender - Cinetpay :71498eba-7945-43bd-930f-6ab09911a8fb
+2023-05-08 09:21:23,516 [6] ERROR LogFileAppender - Cinetpay :L'index et le compte doivent faire référence à un emplacement situé dans la chaîne.
+Nom du paramètre : count
+2023-05-08 09:45:21,843 [6] ERROR LogFileAppender - Cinetpay :71498eba-7945-43bd-930f-6ab09911a8fb
+2023-05-08 09:45:47,390 [6] ERROR LogFileAppender - Cinetpay :L'index et le compte doivent faire référence à un emplacement situé dans la chaîne.
+Nom du paramètre : count
+2023-05-08 09:46:58,151 [6] ERROR LogFileAppender - Cinetpay :71498eba-7945-43bd-930f-6ab09911a8fb
+2023-05-08 09:50:18,478 [6] ERROR LogFileAppender - Cinetpay :Le délai d'attente de l'opération a expiré.
+2023-05-08 09:51:36,526 [6] ERROR LogFileAppender - Cinetpay :71498eba-7945-43bd-930f-6ab09911a8fb
+2023-05-08 09:52:13,973 [25] ERROR LogFileAppender - Cinetpay :71498eba-7945-43bd-930f-6ab09911a8fb
+2023-05-08 10:02:30,852 [6] ERROR LogFileAppender - Cinetpay :a6a1ac23-75ea-4f87-bda7-3b8d088200bd
+2023-05-08 10:09:41,799 [33] ERROR LogFileAppender - Cinetpay :7c0821b1-468a-4553-8f24-d37e158a85d7

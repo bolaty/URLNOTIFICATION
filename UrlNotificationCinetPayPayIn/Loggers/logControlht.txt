@@ -1,0 +1,3478 @@
+ERROR CINETPAY
+PERIODE: 18/03/2021 14:41:33 
+MESSAGE: Appel url notification ok rest traitement 0 : 1588073929479
+
+ERROR ERROR
+PERIODE: 18/03/2021 14:42:31
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1588073929479 
+
+ERROR CINETPAY
+PERIODE: 18/03/2021 16:39:28
+MESSAGE: Appel url notification ok rest traitement 0 : 1588073929479 
+
+ERROR CINETPAY
+PERIODE: 18/03/2021 16:54:11
+MESSAGE: Appel url notification ok rest traitement 0 : 1588073929479 
+
+ERROR CINETPAY
+PERIODE: 18/03/2021 17:03:01
+MESSAGE: Appel url notification ok rest traitement 0 : 1588073929479 
+
+ERROR ERROR
+PERIODE: 18/03/2021 17:04:09
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1588073929479 
+
+ERROR CINETPAY
+PERIODE: 18/03/2021 17:42:05
+MESSAGE: Appel url notification ok rest traitement 0 : 1588073929479 
+
+ERROR SUCCESS
+PERIODE: 18/03/2021 17:44:58
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1588073929479 
+
+ERROR ERROR
+PERIODE: 18/03/2021 17:50:02
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 1588073929479 
+
+ERROR CINETPAY
+PERIODE: 19/03/2021 09:08:15
+MESSAGE: Appel url notification ok rest traitement 0 : 1616144439257 
+
+ERROR ERROR
+PERIODE: 19/03/2021 09:09:38
+MESSAGE: Traitement url notification ok : Transaction ok : 1616144439257 INCORRECT_SETTINGS 
+
+ERROR CINETPAY
+PERIODE: 19/03/2021 09:11:02
+MESSAGE: Appel url notification ok rest traitement 0 : 1616144881521 
+
+ERROR SUCCESS
+PERIODE: 19/03/2021 09:12:10
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1616144881521 
+
+ERROR ERROR
+PERIODE: 19/03/2021 09:12:14
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 1616144881521 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 01:47:28
+MESSAGE: Appel url notification ok rest traitement 0 : 1000 
+
+ERROR ERROR
+PERIODE: 25/05/2021 01:47:30
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1000 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 01:49:05
+MESSAGE: Appel url notification ok rest traitement 0 : 1621253464046 
+
+ERROR SUCCESS
+PERIODE: 25/05/2021 01:49:33
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1621253464046 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 01:54:13
+MESSAGE: Appel url notification ok rest traitement 0 : 1621253464046 
+
+ERROR SUCCESS
+PERIODE: 25/05/2021 01:54:33
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1621253464046 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 01:55:19
+MESSAGE: Appel url notification ok rest traitement 0 : 1621253464046 
+
+ERROR SUCCESS
+PERIODE: 25/05/2021 01:55:34
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1621253464046 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 02:00:14
+MESSAGE: Appel url notification ok rest traitement 0 : 1621253464046 
+
+ERROR SUCCESS
+PERIODE: 25/05/2021 02:00:25
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1621253464046 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 02:02:55
+MESSAGE: Appel url notification ok rest traitement 0 : 1621253464046 
+
+ERROR SUCCESS
+PERIODE: 25/05/2021 02:03:06
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1621253464046 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 02:05:06
+MESSAGE: Appel url notification ok rest traitement 0 : 1621253464046 
+
+ERROR SUCCESS
+PERIODE: 25/05/2021 02:05:14
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1621253464046 
+
+ERROR ERROR
+PERIODE: 25/05/2021 02:06:44
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 1621253464046 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 02:07:40
+MESSAGE: Appel url notification ok rest traitement 0 : 1621253464046 
+
+ERROR SUCCESS
+PERIODE: 25/05/2021 02:07:42
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1621253464046 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 02:10:10
+MESSAGE: Appel url notification ok rest traitement 0 : 1621253464046 
+
+ERROR SUCCESS
+PERIODE: 25/05/2021 02:10:23
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1621253464046 
+
+ERROR ERROR
+PERIODE: 25/05/2021 02:12:16
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Le serveur a fermé une connexion qui devait être maintenue active. 1621253464046 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 02:12:22
+MESSAGE: Appel url notification ok rest traitement 0 : 1621253464046 
+
+ERROR SUCCESS
+PERIODE: 25/05/2021 02:12:23
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1621253464046 
+
+ERROR ERROR
+PERIODE: 25/05/2021 02:14:06
+MESSAGE: Traitement url notification ok: Error : La demande a été abandonnée : Le délai d'attente de l'opération a expiré.. 1621253464046 
+
+ERROR CINETPAY
+PERIODE: 25/05/2021 02:15:53
+MESSAGE: Appel url notification ok rest traitement 0 : 1621253464046 
+
+ERROR SUCCESS
+PERIODE: 25/05/2021 02:15:55
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1621253464046 
+
+ERROR ERROR
+PERIODE: 25/05/2021 02:16:40
+MESSAGE: Traitement url notification ok : Transaction ok : 1621253464046 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 14:31:26
+MESSAGE: Appel url notification ok rest traitement 0 : 1621449664690 
+
+ERROR ERROR
+PERIODE: 29/06/2021 14:31:51
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1621449664690 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 14:35:42
+MESSAGE: Appel url notification ok rest traitement 0 : 1621449664690 
+
+ERROR ERROR
+PERIODE: 29/06/2021 14:37:09
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1621449664690 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 14:40:22
+MESSAGE: Appel url notification ok rest traitement 0 : 1621449664690 
+
+ERROR ERROR
+PERIODE: 29/06/2021 14:40:54
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1621449664690 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 14:41:30
+MESSAGE: Appel url notification ok rest traitement 0 : 1621449664690 
+
+ERROR ERROR
+PERIODE: 29/06/2021 14:41:47
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1621449664690 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 14:42:48
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 14:43:06
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 14:45:47
+MESSAGE: Traitement url notification ok : Transaction ok : 1606840101189 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 14:46:07
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 14:46:42
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 14:49:59
+MESSAGE: Traitement url notification ok : Transaction ok : 1606840101189 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 14:50:26
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 14:50:35
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 14:51:50
+MESSAGE: Traitement url notification ok : Transaction ok : 1606840101189 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 14:52:00
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 14:52:01
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 14:52:30
+MESSAGE: Traitement url notification ok : Transaction ok : 1606840101189 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 14:52:38
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 14:52:40
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 14:54:20
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 1606840101189 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 15:02:17
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 15:02:30
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 15:04:23
+MESSAGE: Traitement url notification ok : Transaction ok : 1606840101189 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 15:06:41
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 15:06:43
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 15:08:23
+MESSAGE: Traitement url notification ok: Error : La demande a été abandonnée : Le délai d'attente de l'opération a expiré.. 1606840101189 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 15:11:34
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 15:11:35
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 15:13:16
+MESSAGE: Traitement url notification ok: Error : La demande a été abandonnée : Le délai d'attente de l'opération a expiré.. 1606840101189 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 15:28:35
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 15:28:37
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 15:30:20
+MESSAGE: Traitement url notification ok : Transaction ok : 1606840101189 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 15:30:36
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 15:30:45
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 15:33:15
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 15:33:18
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 16:17:13
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 1606840101189 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 16:17:25
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 16:17:26
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 16:17:48
+MESSAGE: Traitement url notification ok : Transaction ok : 1606840101189 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 16:22:11
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 16:22:14
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 16:25:49
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 1606840101189 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 16:25:56
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 16:25:57
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 16:27:54
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Le serveur a fermé une connexion qui devait être maintenue active. 1606840101189 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 16:28:04
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 16:28:05
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 16:29:54
+MESSAGE: Traitement url notification ok : Transaction ok : 1606840101189 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 20:16:53
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 20:16:55
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 20:17:23
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Le serveur a fermé une connexion qui devait être maintenue active. 1606840101189 
+
+ERROR CINETPAY
+PERIODE: 29/06/2021 20:23:41
+MESSAGE: Appel url notification ok rest traitement 0 : 1606840101189 
+
+ERROR SUCCESS
+PERIODE: 29/06/2021 20:23:43
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1606840101189 
+
+ERROR ERROR
+PERIODE: 29/06/2021 20:24:51
+MESSAGE: Traitement url notification ok : Transaction ok : 1606840101189 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 13/08/2021 11:42:13
+MESSAGE: Appel url notification ok rest traitement 0 : 1626435710688 
+
+ERROR SUCCESS
+PERIODE: 13/08/2021 11:42:44
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1626435710688 
+
+ERROR ERROR
+PERIODE: 13/08/2021 11:45:51
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 1626435710688 
+
+ERROR CINETPAY
+PERIODE: 13/08/2021 11:46:03
+MESSAGE: Appel url notification ok rest traitement 0 : 1626435710688 
+
+ERROR SUCCESS
+PERIODE: 13/08/2021 11:46:08
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1626435710688 
+
+ERROR ERROR
+PERIODE: 13/08/2021 11:46:31
+MESSAGE: Traitement url notification ok : Transaction ok : 1626435710688 SUCCES 
+
+ERROR CINETPAY
+PERIODE: 13/08/2021 12:03:40
+MESSAGE: Appel url notification ok rest traitement 0 : 1626435710688 
+
+ERROR SUCCESS
+PERIODE: 13/08/2021 12:03:46
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1626435710688 
+
+ERROR CINETPAY
+PERIODE: 13/08/2021 12:09:22
+MESSAGE: Appel url notification ok rest traitement 0 : 1626435710688 
+
+ERROR SUCCESS
+PERIODE: 13/08/2021 12:09:24
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1626435710688 
+
+ERROR ERROR
+PERIODE: 13/08/2021 12:09:35
+MESSAGE: Traitement url notification ok : Transaction ok : 1626435710688 SUCCESFALSELa carte a été clôturée !!! 
+
+ERROR CINETPAY
+PERIODE: 25/11/2021 18:25:34
+MESSAGE: Appel url notification ok rest traitement 0 : c3229951-e504-4353-9b72-5940b48d2697 
+
+ERROR SUCCESS
+PERIODE: 25/11/2021 18:25:55
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: c3229951-e504-4353-9b72-5940b48d2697 
+
+ERROR ERROR
+PERIODE: 25/11/2021 18:39:52
+MESSAGE: Traitement url notification ok : Transaction ok : c3229951-e504-4353-9b72-5940b48d2697 SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @EJ_CODEEPARGNANTJOURNALIER, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 25/11/2021 18:40:12
+MESSAGE: Appel url notification ok rest traitement 0 : c3229951-e504-4353-9b72-5940b48d2697 
+
+ERROR SUCCESS
+PERIODE: 25/11/2021 18:40:33
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: c3229951-e504-4353-9b72-5940b48d2697 
+
+ERROR ERROR
+PERIODE: 25/11/2021 18:41:45
+MESSAGE: Traitement url notification ok : Transaction ok : c3229951-e504-4353-9b72-5940b48d2697 SUCCES TRUE L opération a été réalisée avec succès  !!! 
+
+ERROR CINETPAY
+PERIODE: 02/12/2021 19:43:10
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 02/12/2021 19:43:43
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 02/12/2021 19:45:50
+MESSAGE: Traitement url notification ok : Transaction ok : 927e58fa-8473-4235-9772-fb3f4863864d SUCCES FALSE L'opération à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 02/12/2021 19:47:55
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 02/12/2021 19:48:09
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 02/12/2021 19:55:51
+MESSAGE: Traitement url notification ok : Transaction ok : 927e58fa-8473-4235-9772-fb3f4863864d SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 02/12/2021 19:55:58
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 02/12/2021 19:56:00
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 02/12/2021 19:56:46
+MESSAGE: Traitement url notification ok : Transaction ok : 927e58fa-8473-4235-9772-fb3f4863864d SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 02/12/2021 19:59:59
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 02/12/2021 20:00:01
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 02/12/2021 20:00:07
+MESSAGE: Traitement url notification ok : Transaction ok : 927e58fa-8473-4235-9772-fb3f4863864d SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 02/12/2021 20:06:32
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 02/12/2021 20:07:00
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 02/12/2021 20:10:26
+MESSAGE: Traitement url notification ok : Transaction ok : 927e58fa-8473-4235-9772-fb3f4863864d SUCCES TRUE L opération a été réalisée avec succès  !!! 
+
+ERROR CINETPAY
+PERIODE: 02/12/2021 21:16:08
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 02/12/2021 21:16:47
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 02/12/2021 21:17:17
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (404) Introuvable. 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR CINETPAY
+PERIODE: 02/12/2021 21:17:23
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 02/12/2021 21:17:42
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 02/12/2021 21:23:08
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (404) Introuvable. 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR CINETPAY
+PERIODE: 02/12/2021 21:23:13
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 02/12/2021 21:23:22
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 02/12/2021 21:23:53
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR CINETPAY
+PERIODE: 02/12/2021 21:24:17
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 02/12/2021 21:24:31
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 02/12/2021 21:27:32
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR CINETPAY
+PERIODE: 02/12/2021 21:28:34
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 02/12/2021 21:28:57
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 02/12/2021 21:30:14
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR CINETPAY
+PERIODE: 03/12/2021 08:13:07
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 03/12/2021 08:13:10
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR CINETPAY
+PERIODE: 03/12/2021 08:15:22
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 03/12/2021 08:15:30
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 03/12/2021 08:15:59
+MESSAGE: Traitement url notification ok : Transaction ok : 927e58fa-8473-4235-9772-fb3f4863864d SUCCES FALSE L'agent agréé est obligatoire !!! 
+
+ERROR CINETPAY
+PERIODE: 03/12/2021 08:17:06
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 03/12/2021 08:17:18
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR CINETPAY
+PERIODE: 03/12/2021 08:18:53
+MESSAGE: Appel url notification ok rest traitement 0 : 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR SUCCESS
+PERIODE: 03/12/2021 08:19:03
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 927e58fa-8473-4235-9772-fb3f4863864d 
+
+ERROR ERROR
+PERIODE: 03/12/2021 08:20:58
+MESSAGE: Traitement url notification ok : Transaction ok : 927e58fa-8473-4235-9772-fb3f4863864d SUCCES FALSE L'opération à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 27/12/2021 18:28:37
+MESSAGE: Appel url notification ok rest traitement 0 : 1640607465612 
+
+ERROR SUCCESS
+PERIODE: 27/12/2021 18:28:54
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1640607465612 
+
+ERROR ERROR
+PERIODE: 27/12/2021 18:30:30
+MESSAGE: Traitement url notification ok : Transaction ok : 1640607465612 SUCCES FALSE L'agent agréé est obligatoire !!! 
+
+ERROR CINETPAY
+PERIODE: 30/12/2021 12:53:22
+MESSAGE: Appel url notification ok rest traitement 0 : fd527ec5-bf50-4abe-9956-b93cd028cd05 
+
+ERROR SUCCESS
+PERIODE: 30/12/2021 12:53:42
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: fd527ec5-bf50-4abe-9956-b93cd028cd05 
+
+ERROR ERROR
+PERIODE: 30/12/2021 12:57:19
+MESSAGE: Traitement url notification ok : Transaction ok : fd527ec5-bf50-4abe-9956-b93cd028cd05 SUCCES FALSE L''opérateur est inconnu !!! 
+
+ERROR CINETPAY
+PERIODE: 30/12/2021 12:59:20
+MESSAGE: Appel url notification ok rest traitement 0 : fd527ec5-bf50-4abe-9956-b93cd028cd05 
+
+ERROR SUCCESS
+PERIODE: 30/12/2021 12:59:37
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: fd527ec5-bf50-4abe-9956-b93cd028cd05 
+
+ERROR ERROR
+PERIODE: 30/12/2021 13:26:39
+MESSAGE: Traitement url notification ok : Transaction ok : fd527ec5-bf50-4abe-9956-b93cd028cd05 SUCCES FALSE L''opérateur est inconnu !!! 
+
+ERROR CINETPAY
+PERIODE: 30/12/2021 13:26:45
+MESSAGE: Appel url notification ok rest traitement 0 : fd527ec5-bf50-4abe-9956-b93cd028cd05 
+
+ERROR SUCCESS
+PERIODE: 30/12/2021 13:26:53
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: fd527ec5-bf50-4abe-9956-b93cd028cd05 
+
+ERROR ERROR
+PERIODE: 30/12/2021 13:28:23
+MESSAGE: Traitement url notification ok : Transaction ok : fd527ec5-bf50-4abe-9956-b93cd028cd05 SUCCES TRUE L opération a été réalisée avec succès  !!! 
+
+ERROR CINETPAY
+PERIODE: 03/02/2022 15:17:33
+MESSAGE: Appel url notification ok rest traitement 0 : 71e4cf76-c5ec-409e-8d8e-c4dd9147d69a 
+
+ERROR ERROR
+PERIODE: 03/02/2022 15:18:11
+MESSAGE: Récuperation d'agence !!! : 71e4cf76-c5ec-409e-8d8e-c4dd9147d69a 
+
+ERROR CINETPAY
+PERIODE: 03/02/2022 15:21:12
+MESSAGE: Appel url notification ok rest traitement 0 : 71e4cf76-c5ec-409e-8d8e-c4dd9147d69a 
+
+ERROR ERROR
+PERIODE: 03/02/2022 15:22:11
+MESSAGE: Récuperation d'agence !!! : 71e4cf76-c5ec-409e-8d8e-c4dd9147d69a 
+
+ERROR CINETPAY
+PERIODE: 03/02/2022 15:32:31
+MESSAGE: Appel url notification ok rest traitement 0 : 71e4cf76-c5ec-409e-8d8e-c4dd9147d69a 
+
+ERROR ERROR
+PERIODE: 03/02/2022 17:06:49
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 71e4cf76-c5ec-409e-8d8e-c4dd9147d69a 
+
+ERROR CINETPAY
+PERIODE: 03/02/2022 17:17:19
+MESSAGE: Appel url notification ok rest traitement 0 : 71e4cf76-c5ec-409e-8d8e-c4dd9147d69a 
+
+ERROR ERROR
+PERIODE: 03/02/2022 17:18:17
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 71e4cf76-c5ec-409e-8d8e-c4dd9147d69a 
+
+ERROR CINETPAY
+PERIODE: 03/02/2022 17:18:48
+MESSAGE: Appel url notification ok rest traitement 0 : 1640945046740 
+
+ERROR SUCCESS
+PERIODE: 03/02/2022 17:19:20
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1640945046740 
+
+ERROR ERROR
+PERIODE: 03/02/2022 17:20:20
+MESSAGE: Traitement url notification ok : Transaction ok : 1640945046740 SUCCES FALSE Le montant saisi doit être un multiple du montant de sa mise jounalière !!! 
+
+ERROR CINETPAY
+PERIODE: 03/02/2022 18:15:23
+MESSAGE: Appel url notification ok rest traitement 0 : 1640945046740 
+
+ERROR CINETPAY
+PERIODE: 03/02/2022 18:17:16
+MESSAGE: Appel url notification ok rest traitement 0 : 1640945046740 
+
+ERROR ERROR
+PERIODE: 03/02/2022 18:18:32
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1640945046740 
+
+ERROR CINETPAY
+PERIODE: 18/03/2022 17:02:54
+MESSAGE: Appel url notification ok rest traitement 0 : 1642022821537 
+
+ERROR CINETPAY
+PERIODE: 18/03/2022 17:03:57
+MESSAGE: Appel url notification ok rest traitement 0 : 1642022821537 
+
+ERROR CINETPAY
+PERIODE: 18/03/2022 17:06:28
+MESSAGE: Appel url notification ok rest traitement 0 : 1642022821537 
+
+ERROR CINETPAY
+PERIODE: 23/05/2022 19:56:46
+MESSAGE: Appel url notification ok rest traitement 0 : 2698a37b-ade4-4144-9cf7-721ac2b05374 
+
+ERROR ERROR
+PERIODE: 23/05/2022 19:57:33
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 2698a37b-ade4-4144-9cf7-721ac2b05374 
+
+ERROR CINETPAY
+PERIODE: 23/05/2022 20:13:31
+MESSAGE: Appel url notification ok rest traitement 0 : 2698a37b-ade4-4144-9cf7-721ac2b05374 
+
+ERROR ERROR
+PERIODE: 23/05/2022 20:14:40
+MESSAGE: Récuperation d'agence !!! : 2698a37b-ade4-4144-9cf7-721ac2b05374 
+
+ERROR CINETPAY
+PERIODE: 23/05/2022 20:16:03
+MESSAGE: Appel url notification ok rest traitement 0 : 2698a37b-ade4-4144-9cf7-721ac2b05374 
+
+ERROR SUCCESS
+PERIODE: 23/05/2022 20:17:17
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2698a37b-ade4-4144-9cf7-721ac2b05374 
+
+ERROR ERROR
+PERIODE: 23/05/2022 20:17:29
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 2698a37b-ade4-4144-9cf7-721ac2b05374 
+
+ERROR CINETPAY
+PERIODE: 07/06/2022 18:11:42
+MESSAGE: Appel url notification ok rest traitement 0 : c03fedfb-10c8-4cd5-85d2-2a72fc0ae4a7 
+
+ERROR ERROR
+PERIODE: 07/06/2022 18:13:40
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: c03fedfb-10c8-4cd5-85d2-2a72fc0ae4a7 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 20:27:06
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 20:32:40
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR SUCCESS
+PERIODE: 24/06/2022 20:33:33
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1653930956130 
+
+ERROR ERROR
+PERIODE: 24/06/2022 20:35:53
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 1653930956130 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 20:39:07
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR SUCCESS
+PERIODE: 24/06/2022 20:39:16
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1653930956130 
+
+ERROR ERROR
+PERIODE: 24/06/2022 20:41:05
+MESSAGE: Traitement url notification ok: Error : La demande a été abandonnée : Le délai d'attente de l'opération a expiré.. 1653930956130 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 20:52:13
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR ERROR
+PERIODE: 24/06/2022 20:52:28
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1653930956130 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 20:52:56
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR ERROR
+PERIODE: 24/06/2022 20:53:12
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1653930956130 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 20:53:39
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR ERROR
+PERIODE: 24/06/2022 20:54:10
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1653930956130 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 20:57:09
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR SUCCESS
+PERIODE: 24/06/2022 20:57:44
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1653930956130 
+
+ERROR ERROR
+PERIODE: 24/06/2022 20:59:23
+MESSAGE: Traitement url notification ok : Transaction ok : 1653930956130 SUCCES FALSE L'opération à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 21:02:09
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR SUCCESS
+PERIODE: 24/06/2022 21:02:12
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1653930956130 
+
+ERROR ERROR
+PERIODE: 24/06/2022 21:02:51
+MESSAGE: Traitement url notification ok : Transaction ok : 1653930956130 SUCCES TRUE L opération a été réalisée avec succès  !!! L'API sms non déployé !!! 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 21:04:58
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR SUCCESS
+PERIODE: 24/06/2022 21:05:03
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1653930956130 
+
+ERROR ERROR
+PERIODE: 24/06/2022 21:06:10
+MESSAGE: Traitement url notification ok : Transaction ok : 1653930956130 SUCCES FALSE L'opération à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 21:08:33
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR SUCCESS
+PERIODE: 24/06/2022 21:08:37
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1653930956130 
+
+ERROR ERROR
+PERIODE: 24/06/2022 21:08:59
+MESSAGE: Traitement url notification ok : Transaction ok : 1653930956130 SUCCES FALSE L'opération à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 21:09:25
+MESSAGE: Appel url notification ok rest traitement 0 : d513025a-cd1b-4e0a-9724-5fc084b52a00 
+
+ERROR ERROR
+PERIODE: 24/06/2022 21:09:31
+MESSAGE: Traitement url notification ok : Transaction ok : d513025a-cd1b-4e0a-9724-5fc084b52a00 INCORRECT_SETTINGS   
+
+ERROR CINETPAY
+PERIODE: 24/06/2022 21:09:53
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR SUCCESS
+PERIODE: 24/06/2022 21:10:07
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1653930956130 
+
+ERROR ERROR
+PERIODE: 24/06/2022 21:10:15
+MESSAGE: Traitement url notification ok : Transaction ok : 1653930956130 SUCCES FALSE L'opération à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 28/06/2022 18:06:32
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR SUCCESS
+PERIODE: 28/06/2022 18:06:48
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1653930956130 
+
+ERROR ERROR
+PERIODE: 28/06/2022 18:07:36
+MESSAGE: Traitement url notification ok : Transaction ok : 1653930956130 SUCCES FALSE Le délai d'exécution a expiré. Le délai d'attente s'est écoulé avant la fin de l'opération ou le serveur ne répond pas. 
+
+ERROR CINETPAY
+PERIODE: 28/06/2022 18:08:18
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR SUCCESS
+PERIODE: 28/06/2022 18:08:59
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1653930956130 
+
+ERROR ERROR
+PERIODE: 28/06/2022 18:11:28
+MESSAGE: Traitement url notification ok : Transaction ok : 1653930956130 SUCCES FALSE Le délai d'exécution a expiré. Le délai d'attente s'est écoulé avant la fin de l'opération ou le serveur ne répond pas. 
+
+ERROR CINETPAY
+PERIODE: 28/06/2022 18:12:25
+MESSAGE: Appel url notification ok rest traitement 0 : 1653930956130 
+
+ERROR SUCCESS
+PERIODE: 28/06/2022 18:13:16
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1653930956130 
+
+ERROR ERROR
+PERIODE: 28/06/2022 18:15:19
+MESSAGE: Traitement url notification ok : Transaction ok : 1653930956130 SUCCES TRUE L opération a été réalisée avec succès  !!! L'API sms non déployé !!! 
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 20:51:43
+MESSAGE: Appel url notification ok rest traitement 0 : 16457114078889126456GG 
+
+ERROR INTOUCH
+PERIODE: 28/04/2023 20:51:46
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : 16457114078889126456GG partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 22:17:59
+MESSAGE: Appel url notification ok rest traitement 0 :  
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 22:20:24
+MESSAGE: Appel url notification ok rest traitement 0 :  
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 22:21:59
+MESSAGE: Appel url notification ok rest traitement 0 :  
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 22:22:22
+MESSAGE: Appel url notification ok rest traitement 0 :  
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 22:24:31
+MESSAGE: Appel url notification ok rest traitement 0 :  
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 22:26:39
+MESSAGE: Appel url notification ok rest traitement 0 :  
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 22:36:57
+MESSAGE: Appel url notification ok rest traitement 0 : 16457114078889126456GG 
+
+ERROR INTOUCH
+PERIODE: 28/04/2023 22:37:23
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : 16457114078889126456GG partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 22:38:49
+MESSAGE: Appel url notification ok rest traitement 0 : 16457114078889126456GG 
+
+ERROR INTOUCH
+PERIODE: 28/04/2023 22:38:49
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : 16457114078889126456GG partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 23:47:41
+MESSAGE: Appel url notification ok rest traitement 0 : 16457114078889126456GG 
+
+ERROR INTOUCH
+PERIODE: 28/04/2023 23:47:43
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : 16457114078889126456GG partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 28/04/2023 23:49:13
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 16457114078889126456GG status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 23:50:52
+MESSAGE: Appel url notification ok rest traitement 0 : 16457114078889126456GG 
+
+ERROR INTOUCH
+PERIODE: 28/04/2023 23:50:57
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : cdecbd58-6ea0-454c-82e5-ea4163e696a0 status : SUCCESSFUL partner_transaction_id : 16457114078889126456GG partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 23:51:20
+MESSAGE: Appel url notification ok rest traitement 0 : 16457114078889126456GG 
+
+ERROR INTOUCH
+PERIODE: 28/04/2023 23:51:22
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : cdecbd58-6ea0-454c-82e5-ea4163e696a0 status : SUCCESSFUL partner_transaction_id : 16457114078889126456GG partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 28/04/2023 23:53:16
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 16457114078889126456GG status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 23:53:36
+MESSAGE: Appel url notification ok rest traitement 0 : cdecbd58-6ea0-454c-82e5-ea4163e696a0 
+
+ERROR INTOUCH
+PERIODE: 28/04/2023 23:53:38
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : cdecbd58-6ea0-454c-82e5-ea4163e696a0 partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 28/04/2023 23:59:08
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. cdecbd58-6ea0-454c-82e5-ea4163e696a0 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 28/04/2023 23:59:20
+MESSAGE: Appel url notification ok rest traitement 0 : cdecbd58-6ea0-454c-82e5-ea4163e696a0 
+
+ERROR INTOUCH
+PERIODE: 28/04/2023 23:59:21
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : cdecbd58-6ea0-454c-82e5-ea4163e696a0 partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 29/04/2023 00:24:37
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. cdecbd58-6ea0-454c-82e5-ea4163e696a0 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 29/04/2023 00:24:45
+MESSAGE: Appel url notification ok rest traitement 0 : cdecbd58-6ea0-454c-82e5-ea4163e696a0 
+
+ERROR INTOUCH
+PERIODE: 29/04/2023 00:24:47
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : cdecbd58-6ea0-454c-82e5-ea4163e696a0 partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR CINETPAY
+PERIODE: 29/04/2023 00:25:04
+MESSAGE: Appel url notification ok rest traitement 0 : cdecbd58-6ea0-454c-82e5-ea4163e696a0 
+
+ERROR INTOUCH
+PERIODE: 29/04/2023 00:25:06
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : cdecbd58-6ea0-454c-82e5-ea4163e696a0 partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 29/04/2023 00:33:43
+MESSAGE: Traitement url notification ok: Error : Le format de la chaîne d'entrée est incorrect. cdecbd58-6ea0-454c-82e5-ea4163e696a0 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 29/04/2023 00:33:56
+MESSAGE: Appel url notification ok rest traitement 0 : cdecbd58-6ea0-454c-82e5-ea4163e696a0 
+
+ERROR INTOUCH
+PERIODE: 29/04/2023 00:33:59
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : cdecbd58-6ea0-454c-82e5-ea4163e696a0 partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 29/04/2023 00:35:53
+MESSAGE: Traitement url notification ok: Error : Le format de la chaîne d'entrée est incorrect. cdecbd58-6ea0-454c-82e5-ea4163e696a0 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 29/04/2023 00:36:18
+MESSAGE: Appel url notification ok rest traitement 0 : cdecbd58-6ea0-454c-82e5-ea4163e696a0 
+
+ERROR INTOUCH
+PERIODE: 29/04/2023 00:36:25
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : cdecbd58-6ea0-454c-82e5-ea4163e696a0 partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 29/04/2023 00:39:05
+MESSAGE: Traitement url notification ok: Error : L'index et le compte doivent faire référence à un emplacement situé dans la chaîne.
+Nom du paramètre : count cdecbd58-6ea0-454c-82e5-ea4163e696a0 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 29/04/2023 00:40:44
+MESSAGE: Appel url notification ok rest traitement 0 : cdecbd58-6ea0-454c-82e5-ea4163e696a0 
+
+ERROR INTOUCH
+PERIODE: 29/04/2023 00:40:50
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : cdecbd58-6ea0-454c-82e5-ea4163e696a0 partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 29/04/2023 00:41:50
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: cdecbd58-6ea0-454c-82e5-ea4163e696a0 
+
+ERROR ERROR
+PERIODE: 29/04/2023 00:47:35
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. cdecbd58-6ea0-454c-82e5-ea4163e696a0 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 29/04/2023 02:19:16
+MESSAGE: Appel url notification ok rest traitement 0 : cdecbd58-6ea0-454c-82e5-ea4163e696a0 
+
+ERROR INTOUCH
+PERIODE: 29/04/2023 02:20:59
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1645199970479 status : SUCCESSFUL partner_transaction_id : cdecbd58-6ea0-454c-82e5-ea4163e696a0 partner_transaction_id : https://160.155.243.15:448/ commission : 500 message : Operation being processed. 
+
+ERROR CINETPAY
+PERIODE: 04/05/2023 18:58:02
+MESSAGE: Appel url notification ok rest traitement 0 : 6b1cd3a3-93b9-410c-bbc8-9fe39dff610f 
+
+ERROR INTOUCH
+PERIODE: 04/05/2023 18:58:06
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683218968728 status : SUCCESSFUL partner_transaction_id : 6b1cd3a3-93b9-410c-bbc8-9fe39dff610f partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 2 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 04/05/2023 18:59:47
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 6b1cd3a3-93b9-410c-bbc8-9fe39dff610f 
+
+ERROR ERROR
+PERIODE: 04/05/2023 19:01:42
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 6b1cd3a3-93b9-410c-bbc8-9fe39dff610f status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 04/05/2023 19:01:54
+MESSAGE: Appel url notification ok rest traitement 0 : 6b1cd3a3-93b9-410c-bbc8-9fe39dff610f 
+
+ERROR INTOUCH
+PERIODE: 04/05/2023 19:01:55
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683218968728 status : SUCCESSFUL partner_transaction_id : 6b1cd3a3-93b9-410c-bbc8-9fe39dff610f partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 2 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 04/05/2023 19:02:30
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 6b1cd3a3-93b9-410c-bbc8-9fe39dff610f 
+
+ERROR ERROR
+PERIODE: 04/05/2023 19:04:42
+MESSAGE: Traitement url notification ok : Transaction ok : 6b1cd3a3-93b9-410c-bbc8-9fe39dff610f Operation being processed. FALSE L'opération à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 04/05/2023 19:06:02
+MESSAGE: Appel url notification ok rest traitement 0 : c7cfbf17-6737-4f92-8cde-6f136d5e7f88 
+
+ERROR INTOUCH
+PERIODE: 04/05/2023 19:06:10
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683217912103 status : SUCCESSFUL partner_transaction_id : c7cfbf17-6737-4f92-8cde-6f136d5e7f88 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 2 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 04/05/2023 19:07:15
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: c7cfbf17-6737-4f92-8cde-6f136d5e7f88 
+
+ERROR CINETPAY
+PERIODE: 04/05/2023 19:22:14
+MESSAGE: Appel url notification ok rest traitement 0 : c7cfbf17-6737-4f92-8cde-6f136d5e7f88 
+
+ERROR INTOUCH
+PERIODE: 04/05/2023 19:22:15
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683217912103 status : SUCCESSFUL partner_transaction_id : c7cfbf17-6737-4f92-8cde-6f136d5e7f88 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 2 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 04/05/2023 19:23:22
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. c7cfbf17-6737-4f92-8cde-6f136d5e7f88 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 04/05/2023 19:23:53
+MESSAGE: Appel url notification ok rest traitement 0 : c7cfbf17-6737-4f92-8cde-6f136d5e7f88 
+
+ERROR INTOUCH
+PERIODE: 04/05/2023 19:24:00
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683217912103 status : SUCCESSFUL partner_transaction_id : c7cfbf17-6737-4f92-8cde-6f136d5e7f88 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 2 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 04/05/2023 19:25:49
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. c7cfbf17-6737-4f92-8cde-6f136d5e7f88 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 04/05/2023 19:27:44
+MESSAGE: Appel url notification ok rest traitement 0 : c7cfbf17-6737-4f92-8cde-6f136d5e7f88 
+
+ERROR INTOUCH
+PERIODE: 04/05/2023 19:27:45
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683217912103 status : SUCCESSFUL partner_transaction_id : c7cfbf17-6737-4f92-8cde-6f136d5e7f88 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 2 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 04/05/2023 19:30:08
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. c7cfbf17-6737-4f92-8cde-6f136d5e7f88 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 04/05/2023 19:30:21
+MESSAGE: Appel url notification ok rest traitement 0 : c7cfbf17-6737-4f92-8cde-6f136d5e7f88 
+
+ERROR INTOUCH
+PERIODE: 04/05/2023 19:30:22
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683217912103 status : SUCCESSFUL partner_transaction_id : c7cfbf17-6737-4f92-8cde-6f136d5e7f88 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 2 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 04/05/2023 19:30:55
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. c7cfbf17-6737-4f92-8cde-6f136d5e7f88 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 05/05/2023 09:40:18
+MESSAGE: Appel url notification ok rest traitement 0 : 1f97c47e-ea18-4d88-bb9b-32fe3668e9c1 
+
+ERROR INTOUCH
+PERIODE: 05/05/2023 09:40:20
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683232684568 status : SUCCESSFUL partner_transaction_id : 1f97c47e-ea18-4d88-bb9b-32fe3668e9c1 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 2 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 05/05/2023 09:43:12
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1f97c47e-ea18-4d88-bb9b-32fe3668e9c1 
+
+ERROR ERROR
+PERIODE: 05/05/2023 09:48:18
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 1f97c47e-ea18-4d88-bb9b-32fe3668e9c1 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 05/05/2023 09:49:31
+MESSAGE: Appel url notification ok rest traitement 0 : 1f97c47e-ea18-4d88-bb9b-32fe3668e9c1 
+
+ERROR INTOUCH
+PERIODE: 05/05/2023 09:49:34
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683232684568 status : SUCCESSFUL partner_transaction_id : 1f97c47e-ea18-4d88-bb9b-32fe3668e9c1 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 2 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 05/05/2023 09:49:59
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1f97c47e-ea18-4d88-bb9b-32fe3668e9c1 
+
+ERROR ERROR
+PERIODE: 05/05/2023 09:55:01
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 1f97c47e-ea18-4d88-bb9b-32fe3668e9c1 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 05/05/2023 13:16:33
+MESSAGE: Appel url notification ok rest traitement 0 : 2f733956-8451-4f14-b2d7-51290a2da113 
+
+ERROR INTOUCH
+PERIODE: 05/05/2023 13:16:33
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683288757660 status : SUCCESSFUL partner_transaction_id : 2f733956-8451-4f14-b2d7-51290a2da113 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 05/05/2023 13:17:00
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2f733956-8451-4f14-b2d7-51290a2da113 
+
+ERROR ERROR
+PERIODE: 05/05/2023 13:19:01
+MESSAGE: Traitement url notification ok : Transaction ok : 2f733956-8451-4f14-b2d7-51290a2da113 Operation being processed. TRUE L opération a été réalisée avec succès  !!! L'API sms non déployé !!! 
+
+ERROR CINETPAY
+PERIODE: 05/05/2023 18:48:01
+MESSAGE: Appel url notification ok rest traitement 0 : 2f733956-8451-4f14-b2d7-51290a2da113 
+
+ERROR INTOUCH
+PERIODE: 05/05/2023 18:48:01
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683288757660 status : SUCCESSFUL partner_transaction_id : 2f733956-8451-4f14-b2d7-51290a2da113 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR CINETPAY
+PERIODE: 05/05/2023 19:12:59
+MESSAGE: Appel url notification ok rest traitement 0 : 2f733956-8451-4f14-b2d7-51290a2da113 
+
+ERROR INTOUCH
+PERIODE: 05/05/2023 19:12:59
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683288757660 status : SUCCESSFUL partner_transaction_id : 2f733956-8451-4f14-b2d7-51290a2da113 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 05/05/2023 19:13:43
+MESSAGE: Traitement url notification ok: Error : L'index et le compte doivent faire référence à un emplacement situé dans la chaîne.
+Nom du paramètre : count 2f733956-8451-4f14-b2d7-51290a2da113 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 08/05/2023 09:12:58
+MESSAGE: Appel url notification ok rest traitement 0 : 71498eba-7945-43bd-930f-6ab09911a8fb 
+
+ERROR INTOUCH
+PERIODE: 08/05/2023 09:12:58
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683313918873 status : SUCCESSFUL partner_transaction_id : 71498eba-7945-43bd-930f-6ab09911a8fb partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 08/05/2023 09:14:41
+MESSAGE: Traitement url notification ok: Error : L'index et le compte doivent faire référence à un emplacement situé dans la chaîne.
+Nom du paramètre : count 71498eba-7945-43bd-930f-6ab09911a8fb status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 08/05/2023 09:20:35
+MESSAGE: Appel url notification ok rest traitement 0 : 71498eba-7945-43bd-930f-6ab09911a8fb 
+
+ERROR INTOUCH
+PERIODE: 08/05/2023 09:20:36
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683313918873 status : SUCCESSFUL partner_transaction_id : 71498eba-7945-43bd-930f-6ab09911a8fb partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 08/05/2023 09:21:23
+MESSAGE: Traitement url notification ok: Error : L'index et le compte doivent faire référence à un emplacement situé dans la chaîne.
+Nom du paramètre : count 71498eba-7945-43bd-930f-6ab09911a8fb status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 08/05/2023 09:45:21
+MESSAGE: Appel url notification ok rest traitement 0 : 71498eba-7945-43bd-930f-6ab09911a8fb 
+
+ERROR INTOUCH
+PERIODE: 08/05/2023 09:45:21
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683313918873 status : SUCCESSFUL partner_transaction_id : 71498eba-7945-43bd-930f-6ab09911a8fb partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 08/05/2023 09:45:47
+MESSAGE: Traitement url notification ok: Error : L'index et le compte doivent faire référence à un emplacement situé dans la chaîne.
+Nom du paramètre : count 71498eba-7945-43bd-930f-6ab09911a8fb status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 08/05/2023 09:46:58
+MESSAGE: Appel url notification ok rest traitement 0 : 71498eba-7945-43bd-930f-6ab09911a8fb 
+
+ERROR INTOUCH
+PERIODE: 08/05/2023 09:46:58
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683313918873 status : SUCCESSFUL partner_transaction_id : 71498eba-7945-43bd-930f-6ab09911a8fb partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 08/05/2023 09:47:15
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 71498eba-7945-43bd-930f-6ab09911a8fb 
+
+ERROR ERROR
+PERIODE: 08/05/2023 09:50:18
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 71498eba-7945-43bd-930f-6ab09911a8fb status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 08/05/2023 09:51:36
+MESSAGE: Appel url notification ok rest traitement 0 : 71498eba-7945-43bd-930f-6ab09911a8fb 
+
+ERROR INTOUCH
+PERIODE: 08/05/2023 09:51:36
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683313918873 status : SUCCESSFUL partner_transaction_id : 71498eba-7945-43bd-930f-6ab09911a8fb partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 08/05/2023 09:51:44
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 71498eba-7945-43bd-930f-6ab09911a8fb 
+
+ERROR ERROR
+PERIODE: 08/05/2023 09:51:49
+MESSAGE: Traitement url notification ok : Transaction ok : 71498eba-7945-43bd-930f-6ab09911a8fb Operation being processed. FALSE L'opération à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 08/05/2023 09:52:13
+MESSAGE: Appel url notification ok rest traitement 0 : 71498eba-7945-43bd-930f-6ab09911a8fb 
+
+ERROR INTOUCH
+PERIODE: 08/05/2023 09:52:13
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683313918873 status : SUCCESSFUL partner_transaction_id : 71498eba-7945-43bd-930f-6ab09911a8fb partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 08/05/2023 09:52:49
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 71498eba-7945-43bd-930f-6ab09911a8fb 
+
+ERROR ERROR
+PERIODE: 08/05/2023 09:58:28
+MESSAGE: Traitement url notification ok : Transaction ok : 71498eba-7945-43bd-930f-6ab09911a8fb Operation being processed. FALSE L'opération à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 08/05/2023 10:02:30
+MESSAGE: Appel url notification ok rest traitement 0 : a6a1ac23-75ea-4f87-bda7-3b8d088200bd 
+
+ERROR INTOUCH
+PERIODE: 08/05/2023 10:02:30
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683308184508 status : SUCCESSFUL partner_transaction_id : a6a1ac23-75ea-4f87-bda7-3b8d088200bd partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 08/05/2023 10:02:47
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: a6a1ac23-75ea-4f87-bda7-3b8d088200bd 
+
+ERROR ERROR
+PERIODE: 08/05/2023 10:03:20
+MESSAGE: Traitement url notification ok : Transaction ok : a6a1ac23-75ea-4f87-bda7-3b8d088200bd Operation being processed. FALSE L'opération à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 08/05/2023 10:09:41
+MESSAGE: Appel url notification ok rest traitement 0 : 7c0821b1-468a-4553-8f24-d37e158a85d7 
+
+ERROR INTOUCH
+PERIODE: 08/05/2023 10:09:41
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1683303057551 status : SUCCESSFUL partner_transaction_id : 7c0821b1-468a-4553-8f24-d37e158a85d7 partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 08/05/2023 10:09:47
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 7c0821b1-468a-4553-8f24-d37e158a85d7 
+
+ERROR ERROR
+PERIODE: 08/05/2023 10:10:37
+MESSAGE: Traitement url notification ok : Transaction ok : 7c0821b1-468a-4553-8f24-d37e158a85d7 Operation being processed. TRUE L opération a été réalisée avec succès  !!! L'API sms non déployé !!! 
+
+ERROR CINETPAY
+PERIODE: 12/05/2023 18:20:09
+MESSAGE: Appel url notification ok rest traitement 0 : 29a4614a-eb27-4f8f-998f-398e9db1520c 
+
+ERROR SUCCESS
+PERIODE: 12/05/2023 18:20:11
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 29a4614a-eb27-4f8f-998f-398e9db1520c 
+
+ERROR ERROR
+PERIODE: 12/05/2023 18:21:51
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 29a4614a-eb27-4f8f-998f-398e9db1520c 
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 15:20:40
+MESSAGE: Appel url notification ok rest traitement 0 : 6d8dlhqj6zffhr2uq6fo9zw 
+
+ERROR INTOUCH
+PERIODE: 17/05/2023 15:20:40
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684257121425 status : SUCCESSFUL partner_transaction_id : 6d8dlhqj6zffhr2uq6fo9zw partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 17/05/2023 15:20:40
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 6d8dlhqj6zffhr2uq6fo9zw 
+
+ERROR ERROR
+PERIODE: 17/05/2023 15:20:57
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. 6d8dlhqj6zffhr2uq6fo9zw status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 15:21:10
+MESSAGE: Appel url notification ok rest traitement 0 : 6d8dlhqj6zffhr2uq6fo9zw 
+
+ERROR INTOUCH
+PERIODE: 17/05/2023 15:21:10
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684257121425 status : SUCCESSFUL partner_transaction_id : 6d8dlhqj6zffhr2uq6fo9zw partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 17/05/2023 15:21:18
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 6d8dlhqj6zffhr2uq6fo9zw status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 15:21:33
+MESSAGE: Appel url notification ok rest traitement 0 : 6d8dlhqj6zffhr2uq6fo9zw 
+
+ERROR INTOUCH
+PERIODE: 17/05/2023 15:21:33
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684257121425 status : SUCCESSFUL partner_transaction_id : 6d8dlhqj6zffhr2uq6fo9zw partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 17/05/2023 15:21:37
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 6d8dlhqj6zffhr2uq6fo9zw status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 15:33:32
+MESSAGE: Appel url notification ok rest traitement 0 : 6d8dlhqj6zffhr2uq6fo9zw 
+
+ERROR INTOUCH
+PERIODE: 17/05/2023 15:33:32
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684257121425 status : SUCCESSFUL partner_transaction_id : 6d8dlhqj6zffhr2uq6fo9zw partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 17/05/2023 15:33:36
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 6d8dlhqj6zffhr2uq6fo9zw status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 15:34:02
+MESSAGE: Appel url notification ok rest traitement 0 : 6d8dlhqj6zffhr2uq6fo9zw 
+
+ERROR INTOUCH
+PERIODE: 17/05/2023 15:34:02
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684257121425 status : SUCCESSFUL partner_transaction_id : 6d8dlhqj6zffhr2uq6fo9zw partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 17/05/2023 15:34:07
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 6d8dlhqj6zffhr2uq6fo9zw status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 15:36:17
+MESSAGE: Appel url notification ok rest traitement 0 : 6d8dlhqj6zffhr2uq6fo9zw 
+
+ERROR INTOUCH
+PERIODE: 17/05/2023 15:36:17
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684257121425 status : SUCCESSFUL partner_transaction_id : 6d8dlhqj6zffhr2uq6fo9zw partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 17/05/2023 15:36:21
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 6d8dlhqj6zffhr2uq6fo9zw status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 15:36:45
+MESSAGE: Appel url notification ok rest traitement 0 :  
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 15:37:04
+MESSAGE: Appel url notification ok rest traitement 0 :  
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 15:53:33
+MESSAGE: Appel url notification ok rest traitement 0 : 3567lhrvifxj1r68cvb5ste 
+
+ERROR INTOUCH
+PERIODE: 17/05/2023 15:53:35
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684338287406 status : SUCCESSFUL partner_transaction_id : 3567lhrvifxj1r68cvb5ste partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 17/05/2023 15:53:48
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3567lhrvifxj1r68cvb5ste 
+
+ERROR ERROR
+PERIODE: 17/05/2023 15:56:51
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 3567lhrvifxj1r68cvb5ste status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 15:58:44
+MESSAGE: Appel url notification ok rest traitement 0 : 3567lhrvifxj1r68cvb5ste 
+
+ERROR INTOUCH
+PERIODE: 17/05/2023 15:58:44
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684338287406 status : SUCCESSFUL partner_transaction_id : 3567lhrvifxj1r68cvb5ste partner_transaction_id : https://urlnot.mgdigitalplus.com/UrlNotIntouchTontine/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 17/05/2023 15:58:44
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3567lhrvifxj1r68cvb5ste 
+
+ERROR ERROR
+PERIODE: 17/05/2023 15:59:25
+MESSAGE: Traitement url notification ok : Transaction ok : 3567lhrvifxj1r68cvb5ste Operation being processed. FALSE La transaction à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 16:12:57
+MESSAGE: Appel url notification ok rest traitement 0 : cd1fbe89-01c4-4d7e-b66e-609e9a8e6071 
+
+ERROR INTOUCH
+PERIODE: 17/05/2023 16:12:57
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684236284208 status : SUCCESSFUL partner_transaction_id : cd1fbe89-01c4-4d7e-b66e-609e9a8e6071 partner_transaction_id : http://localhost:33138/ZenithMobileIntouch commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 17/05/2023 16:12:57
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. cd1fbe89-01c4-4d7e-b66e-609e9a8e6071 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 17/05/2023 16:15:00
+MESSAGE: Appel url notification ok rest traitement 0 : ceb8lhqju3gwzf8wz88b9aj 
+
+ERROR INTOUCH
+PERIODE: 17/05/2023 16:15:00
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684258201466 status : SUCCESSFUL partner_transaction_id : ceb8lhqju3gwzf8wz88b9aj partner_transaction_id : http://localhost:33138/ZenithMobileIntouch commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 17/05/2023 16:15:00
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: ceb8lhqju3gwzf8wz88b9aj 
+
+ERROR ERROR
+PERIODE: 17/05/2023 16:16:07
+MESSAGE: Traitement url notification ok : Transaction ok : ceb8lhqju3gwzf8wz88b9aj Operation being processed. TRUE Transfert réalisé avec succès !!! 
+
+ERROR CINETPAY
+PERIODE: 19/05/2023 17:48:17
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR SUCCESS
+PERIODE: 19/05/2023 17:49:43
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 27d3lhuru7k6b3r98q14315 
+
+ERROR ERROR
+PERIODE: 19/05/2023 17:55:33
+MESSAGE: Traitement url notification ok : Transaction ok : 27d3lhuru7k6b3r98q14315 SUCCES FALSE Le code service est obligatoire !!! 
+
+ERROR CINETPAY
+PERIODE: 19/05/2023 17:59:57
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR SUCCESS
+PERIODE: 19/05/2023 17:59:59
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 27d3lhuru7k6b3r98q14315 
+
+ERROR ERROR
+PERIODE: 19/05/2023 18:01:07
+MESSAGE: Traitement url notification ok : Transaction ok : 27d3lhuru7k6b3r98q14315 SUCCES FALSE Le code service est obligatoire !!! 
+
+ERROR CINETPAY
+PERIODE: 19/05/2023 18:02:32
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR SUCCESS
+PERIODE: 19/05/2023 18:02:37
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 27d3lhuru7k6b3r98q14315 
+
+ERROR CINETPAY
+PERIODE: 19/05/2023 18:09:18
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR SUCCESS
+PERIODE: 19/05/2023 18:09:19
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 27d3lhuru7k6b3r98q14315 
+
+ERROR CINETPAY
+PERIODE: 19/05/2023 18:58:55
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR ERROR
+PERIODE: 19/05/2023 18:58:55
+MESSAGE: Traitement url notification ok: Error : startIndex ne peut pas être supérieur à la longueur de la chaîne.
+Nom du paramètre : startIndex 27d3lhuru7k6b3r98q14315 
+
+ERROR CINETPAY
+PERIODE: 19/05/2023 18:59:34
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR ERROR
+PERIODE: 19/05/2023 18:59:35
+MESSAGE: Traitement url notification ok: Error : startIndex ne peut pas être supérieur à la longueur de la chaîne.
+Nom du paramètre : startIndex 27d3lhuru7k6b3r98q14315 
+
+ERROR CINETPAY
+PERIODE: 19/05/2023 18:59:53
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR ERROR
+PERIODE: 19/05/2023 19:00:17
+MESSAGE: Traitement url notification ok: Error : startIndex ne peut pas être supérieur à la longueur de la chaîne.
+Nom du paramètre : startIndex 27d3lhuru7k6b3r98q14315 
+
+ERROR CINETPAY
+PERIODE: 19/05/2023 19:02:26
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR SUCCESS
+PERIODE: 19/05/2023 19:02:56
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 27d3lhuru7k6b3r98q14315 
+
+ERROR CINETPAY
+PERIODE: 19/05/2023 19:04:32
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR SUCCESS
+PERIODE: 19/05/2023 19:04:48
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 27d3lhuru7k6b3r98q14315 
+
+ERROR ERROR
+PERIODE: 19/05/2023 19:06:23
+MESSAGE: Traitement url notification ok : Transaction ok : 27d3lhuru7k6b3r98q14315 SUCCES TRUE Transfert réalisé avec succès !!! 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 16:57:53
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR ERROR
+PERIODE: 22/05/2023 16:57:53
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 27d3lhuru7k6b3r98q14315 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 17:29:21
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR ERROR
+PERIODE: 22/05/2023 17:29:39
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 27d3lhuru7k6b3r98q14315 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 17:29:48
+MESSAGE: Appel url notification ok rest traitement 0 : 27d3lhuru7k6b3r98q14315 
+
+ERROR ERROR
+PERIODE: 22/05/2023 17:30:02
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 27d3lhuru7k6b3r98q14315 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 18:36:21
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 18:37:29
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 18:39:59
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 18:41:10
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 19:11:00
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR INTOUCH
+PERIODE: 22/05/2023 19:11:03
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684776946621 status : SUCCESSFUL partner_transaction_id : 329a11bd-6d8a-4ca4-a487-0710b5762766 partner_transaction_id : http://localhost:33138/ZenithMobileIntouch commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 22/05/2023 19:11:19
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 329a11bd-6d8a-4ca4-a487-0710b5762766 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 19:15:57
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR INTOUCH
+PERIODE: 22/05/2023 19:15:58
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684776946621 status : SUCCESSFUL partner_transaction_id : 329a11bd-6d8a-4ca4-a487-0710b5762766 partner_transaction_id : http://localhost:33138/ZenithMobileIntouch commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 22/05/2023 19:17:02
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR ERROR
+PERIODE: 22/05/2023 19:19:40
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 329a11bd-6d8a-4ca4-a487-0710b5762766 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 19:20:02
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR INTOUCH
+PERIODE: 22/05/2023 19:20:02
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684776946621 status : SUCCESSFUL partner_transaction_id : 329a11bd-6d8a-4ca4-a487-0710b5762766 partner_transaction_id : http://localhost:33138/ZenithMobileIntouch commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 22/05/2023 19:20:06
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR ERROR
+PERIODE: 22/05/2023 19:20:21
+MESSAGE: Traitement url notification ok : Transaction ok : 329a11bd-6d8a-4ca4-a487-0710b5762766 Operation being processed. FALSE Le client n''existe pas !!! 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 19:24:35
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR INTOUCH
+PERIODE: 22/05/2023 19:24:35
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684776946621 status : SUCCESSFUL partner_transaction_id : 329a11bd-6d8a-4ca4-a487-0710b5762766 partner_transaction_id : http://localhost:33138/ZenithMobileIntouch commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 22/05/2023 19:24:44
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR ERROR
+PERIODE: 22/05/2023 19:24:47
+MESSAGE: Traitement url notification ok : Transaction ok : 329a11bd-6d8a-4ca4-a487-0710b5762766 Operation being processed. FALSE Le client n''existe pas !!! 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 19:25:11
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR INTOUCH
+PERIODE: 22/05/2023 19:25:11
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684776946621 status : SUCCESSFUL partner_transaction_id : 329a11bd-6d8a-4ca4-a487-0710b5762766 partner_transaction_id : http://localhost:33138/ZenithMobileIntouch commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 22/05/2023 19:26:49
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR ERROR
+PERIODE: 22/05/2023 19:26:52
+MESSAGE: Traitement url notification ok : Transaction ok : 329a11bd-6d8a-4ca4-a487-0710b5762766 Operation being processed. FALSE Le client n''existe pas !!! 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 19:27:16
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR INTOUCH
+PERIODE: 22/05/2023 19:27:16
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684776946621 status : SUCCESSFUL partner_transaction_id : 329a11bd-6d8a-4ca4-a487-0710b5762766 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 22/05/2023 19:27:31
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR ERROR
+PERIODE: 22/05/2023 19:27:35
+MESSAGE: Traitement url notification ok : Transaction ok : 329a11bd-6d8a-4ca4-a487-0710b5762766 Operation being processed. FALSE Le client n''existe pas !!! 
+
+ERROR CINETPAY
+PERIODE: 22/05/2023 19:27:46
+MESSAGE: Appel url notification ok rest traitement 0 : 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR INTOUCH
+PERIODE: 22/05/2023 19:27:46
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1684776946621 status : SUCCESSFUL partner_transaction_id : 329a11bd-6d8a-4ca4-a487-0710b5762766 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 22/05/2023 19:27:57
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 329a11bd-6d8a-4ca4-a487-0710b5762766 
+
+ERROR ERROR
+PERIODE: 22/05/2023 19:28:59
+MESSAGE: Traitement url notification ok : Transaction ok : 329a11bd-6d8a-4ca4-a487-0710b5762766 Operation being processed. FALSE Le client n''existe pas !!! 
+
+ERROR CINETPAY
+PERIODE: 14/06/2023 14:50:08
+MESSAGE: Appel url notification ok rest traitement 0 : 13617e51-cd30-4624-be46-f356136ce78b 
+
+ERROR INTOUCH
+PERIODE: 14/06/2023 14:50:10
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1686753632416 status : SUCCESSFUL partner_transaction_id : 13617e51-cd30-4624-be46-f356136ce78b partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 14/06/2023 14:51:06
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 13617e51-cd30-4624-be46-f356136ce78b 
+
+ERROR ERROR
+PERIODE: 14/06/2023 14:53:41
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 13617e51-cd30-4624-be46-f356136ce78b status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 14/06/2023 15:01:16
+MESSAGE: Appel url notification ok rest traitement 0 : 13617e51-cd30-4624-be46-f356136ce78b 
+
+ERROR INTOUCH
+PERIODE: 14/06/2023 15:01:16
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1686753632416 status : SUCCESSFUL partner_transaction_id : 13617e51-cd30-4624-be46-f356136ce78b partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 14/06/2023 15:01:23
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 13617e51-cd30-4624-be46-f356136ce78b 
+
+ERROR ERROR
+PERIODE: 14/06/2023 15:03:06
+MESSAGE: Traitement url notification ok: Error : La demande a été abandonnée : Le délai d'attente de l'opération a expiré.. 13617e51-cd30-4624-be46-f356136ce78b status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 14/06/2023 16:34:30
+MESSAGE: Appel url notification ok rest traitement 0 : b60a0865-b315-45ae-81a5-82b9f5e693f3 
+
+ERROR SUCCESS
+PERIODE: 14/06/2023 16:34:35
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: b60a0865-b315-45ae-81a5-82b9f5e693f3 
+
+ERROR ERROR
+PERIODE: 14/06/2023 16:35:19
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. b60a0865-b315-45ae-81a5-82b9f5e693f3 
+
+ERROR CINETPAY
+PERIODE: 14/06/2023 16:36:20
+MESSAGE: Appel url notification ok rest traitement 0 :  
+
+ERROR CINETPAY
+PERIODE: 14/06/2023 16:41:25
+MESSAGE: Appel url notification ok rest traitement 0 : b60a0865-b315-45ae-81a5-82b9f5e693f3 
+
+ERROR SUCCESS
+PERIODE: 14/06/2023 16:41:27
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: b60a0865-b315-45ae-81a5-82b9f5e693f3 
+
+ERROR ERROR
+PERIODE: 14/06/2023 16:43:07
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. b60a0865-b315-45ae-81a5-82b9f5e693f3 
+
+ERROR CINETPAY
+PERIODE: 14/06/2023 16:43:35
+MESSAGE: Appel url notification ok rest traitement 0 : b60a0865-b315-45ae-81a5-82b9f5e693f3 
+
+ERROR SUCCESS
+PERIODE: 14/06/2023 16:43:36
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: b60a0865-b315-45ae-81a5-82b9f5e693f3 
+
+ERROR ERROR
+PERIODE: 14/06/2023 16:44:46
+MESSAGE: Traitement url notification ok : Transaction ok : b60a0865-b315-45ae-81a5-82b9f5e693f3 SUCCES TRUE L opération a été réalisée avec succès  !!! L'API sms non déployé !!! 
+
+ERROR CINETPAY
+PERIODE: 14/06/2023 18:18:39
+MESSAGE: Appel url notification ok rest traitement 0 : 3c88liw0w20oo8a48zdhn4j 
+
+ERROR INTOUCH
+PERIODE: 14/06/2023 18:18:41
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1686765942174 status : SUCCESSFUL partner_transaction_id : 3c88liw0w20oo8a48zdhn4j partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 14/06/2023 18:19:07
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 3c88liw0w20oo8a48zdhn4j status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 14/06/2023 18:20:48
+MESSAGE: Appel url notification ok rest traitement 0 : 3c88liw0w20oo8a48zdhn4j 
+
+ERROR INTOUCH
+PERIODE: 14/06/2023 18:20:50
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1686765942174 status : SUCCESSFUL partner_transaction_id : 3c88liw0w20oo8a48zdhn4j partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 14/06/2023 18:22:01
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3c88liw0w20oo8a48zdhn4j 
+
+ERROR CINETPAY
+PERIODE: 15/06/2023 09:14:18
+MESSAGE: Appel url notification ok rest traitement 0 : 5287liwx1qaolfvkolwjn1 
+
+ERROR ERROR
+PERIODE: 15/06/2023 09:14:56
+MESSAGE: Traitement url notification ok: Error : L'index et le compte doivent faire référence à un emplacement situé dans la chaîne.
+Nom du paramètre : count 5287liwx1qaolfvkolwjn1 
+
+ERROR CINETPAY
+PERIODE: 15/06/2023 09:16:53
+MESSAGE: Appel url notification ok rest traitement 0 : 5287liwx1qaolfvkolwjn1 
+
+ERROR SUCCESS
+PERIODE: 15/06/2023 09:17:25
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 5287liwx1qaolfvkolwjn1 
+
+ERROR CINETPAY
+PERIODE: 15/06/2023 09:20:52
+MESSAGE: Appel url notification ok rest traitement 0 : 5287liwx1qaolfvkolwjn1 
+
+ERROR SUCCESS
+PERIODE: 15/06/2023 09:21:09
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 5287liwx1qaolfvkolwjn1 
+
+ERROR ERROR
+PERIODE: 15/06/2023 09:21:37
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (404) Introuvable. 5287liwx1qaolfvkolwjn1 
+
+ERROR CINETPAY
+PERIODE: 15/06/2023 09:25:36
+MESSAGE: Appel url notification ok rest traitement 0 : 5287liwx1qaolfvkolwjn1 
+
+ERROR SUCCESS
+PERIODE: 15/06/2023 09:25:39
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 5287liwx1qaolfvkolwjn1 
+
+ERROR ERROR
+PERIODE: 15/06/2023 09:37:05
+MESSAGE: Traitement url notification ok : Transaction ok : 5287liwx1qaolfvkolwjn1 SUCCES FALSE La transaction à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 03/07/2023 09:45:28
+MESSAGE: Appel url notification ok rest traitement 0 : 3c88liw0w20oo8a48zdhn4j 
+
+ERROR CINETPAY
+PERIODE: 03/07/2023 09:46:11
+MESSAGE: Appel url notification ok rest traitement 0 : 3c88liw0w20oo8a48zdhn4j 
+
+ERROR CINETPAY
+PERIODE: 03/07/2023 09:48:12
+MESSAGE: Appel url notification ok rest traitement 0 : 3c88liw0w20oo8a48zdhn4j 
+
+ERROR CINETPAY
+PERIODE: 03/07/2023 09:48:21
+MESSAGE: Appel url notification ok rest traitement 0 : 3c88liw0w20oo8a48zdhn4j 
+
+ERROR CINETPAY
+PERIODE: 03/07/2023 09:49:10
+MESSAGE: Appel url notification ok rest traitement 0 : 3c88liw0w20oo8a48zdhn4j 
+
+ERROR CINETPAY
+PERIODE: 03/07/2023 09:49:55
+MESSAGE: Appel url notification ok rest traitement 0 : 3c88liw0w20oo8a48zdhn4j 
+
+ERROR INTOUCH
+PERIODE: 03/07/2023 09:49:56
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1686765942174 status : SUCCESSFUL partner_transaction_id : 3c88liw0w20oo8a48zdhn4j partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 03/07/2023 09:50:16
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 3c88liw0w20oo8a48zdhn4j status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 03/07/2023 09:50:32
+MESSAGE: Appel url notification ok rest traitement 0 : 3c88liw0w20oo8a48zdhn4j 
+
+ERROR INTOUCH
+PERIODE: 03/07/2023 09:50:35
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1686765942174 status : SUCCESSFUL partner_transaction_id : 3c88liw0w20oo8a48zdhn4j partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 03/07/2023 09:54:05
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 3c88liw0w20oo8a48zdhn4j status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 03/07/2023 19:11:37
+MESSAGE: Appel url notification ok rest traitement 0 : bf4ac155-2a7c-4ace-8bbb-023b62975f77 
+
+ERROR INTOUCH
+PERIODE: 03/07/2023 19:11:38
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688406446753 status : SUCCESSFUL partner_transaction_id : bf4ac155-2a7c-4ace-8bbb-023b62975f77 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 03/07/2023 19:12:43
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: bf4ac155-2a7c-4ace-8bbb-023b62975f77 
+
+ERROR ERROR
+PERIODE: 03/07/2023 19:13:34
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. bf4ac155-2a7c-4ace-8bbb-023b62975f77 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 03/07/2023 19:14:23
+MESSAGE: Appel url notification ok rest traitement 0 : bf4ac155-2a7c-4ace-8bbb-023b62975f77 
+
+ERROR INTOUCH
+PERIODE: 03/07/2023 19:14:24
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688406446753 status : SUCCESSFUL partner_transaction_id : bf4ac155-2a7c-4ace-8bbb-023b62975f77 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 03/07/2023 19:14:47
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: bf4ac155-2a7c-4ace-8bbb-023b62975f77 
+
+ERROR CINETPAY
+PERIODE: 03/07/2023 19:23:41
+MESSAGE: Appel url notification ok rest traitement 0 : bf4ac155-2a7c-4ace-8bbb-023b62975f77 
+
+ERROR INTOUCH
+PERIODE: 03/07/2023 19:23:42
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688406446753 status : SUCCESSFUL partner_transaction_id : bf4ac155-2a7c-4ace-8bbb-023b62975f77 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 03/07/2023 19:23:55
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: bf4ac155-2a7c-4ace-8bbb-023b62975f77 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 16:15:21
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 16:15:39
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 16:19:28
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 16:19:45
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 16:19:58
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 16:20:52
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 16:21:17
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 16:21:57
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 16:22:09
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 16:22:31
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 16:24:09
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 16:24:32
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 16:24:43
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 16:25:03
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 16:25:39
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 16:26:02
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 16:28:24
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 16:28:40
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 17:21:25
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 17:22:55
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 17:25:06
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 17:26:00
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 17:26:05
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 17:26:57
+MESSAGE: Traitement url notification ok : Transaction ok : 3cb1ljsp1aqfpqbcbywgc1d SUCCES FALSE La référence d'objet n'est pas définie à une instance d'un objet. 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 17:27:07
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 17:27:11
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 17:28:57
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 17:39:10
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 17:39:37
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 17:40:48
+MESSAGE: Traitement url notification ok : Transaction ok : 3cb1ljsp1aqfpqbcbywgc1d SUCCES FALSE La référence d'objet n'est pas définie à une instance d'un objet. 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 17:44:44
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 17:45:08
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 17:50:00
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 18:02:17
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 18:02:34
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 18:03:40
+MESSAGE: Traitement url notification ok : Transaction ok : 3cb1ljsp1aqfpqbcbywgc1d SUCCES FALSE La référence d'objet n'est pas définie à une instance d'un objet. 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 18:03:51
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 18:04:09
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 18:05:46
+MESSAGE: Traitement url notification ok : Transaction ok : 3cb1ljsp1aqfpqbcbywgc1d SUCCES FALSE La référence d'objet n'est pas définie à une instance d'un objet. 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 18:07:47
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 18:07:52
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 18:08:23
+MESSAGE: Traitement url notification ok : Transaction ok : 3cb1ljsp1aqfpqbcbywgc1d SUCCES FALSE La référence d'objet n'est pas définie à une instance d'un objet. 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 18:08:55
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 18:08:58
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 18:10:43
+MESSAGE: Traitement url notification ok: Error : La demande a été abandonnée : Le délai d'attente de l'opération a expiré.. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 18:14:03
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 18:14:06
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 18:16:05
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 18:20:33
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 18:20:36
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 18:22:12
+MESSAGE: Traitement url notification ok : Transaction ok : 3cb1ljsp1aqfpqbcbywgc1d SUCCES FALSE La transaction à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 18:27:21
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 18:27:25
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 18:27:56
+MESSAGE: Appel url notification ok rest traitement 0 : 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 18:29:34
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 3cb1ljsp1aqfpqbcbywgc1d 
+
+ERROR ERROR
+PERIODE: 07/07/2023 18:30:07
+MESSAGE: Traitement url notification ok : Transaction ok : 3cb1ljsp1aqfpqbcbywgc1d SUCCES FALSE La transaction à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 19:02:41
+MESSAGE: Appel url notification ok rest traitement 0 : 7fd8ljsxn0tuypjirifnb78 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 19:06:31
+MESSAGE: Appel url notification ok rest traitement 0 : 7fd8ljsxn0tuypjirifnb78 
+
+ERROR INTOUCH
+PERIODE: 07/07/2023 19:06:33
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688755866455 status : SUCCESSFUL partner_transaction_id : 7fd8ljsxn0tuypjirifnb78 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 19:07:02
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 7fd8ljsxn0tuypjirifnb78 
+
+ERROR ERROR
+PERIODE: 07/07/2023 19:10:04
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 7fd8ljsxn0tuypjirifnb78 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 19:10:23
+MESSAGE: Appel url notification ok rest traitement 0 : 7fd8ljsxn0tuypjirifnb78 
+
+ERROR INTOUCH
+PERIODE: 07/07/2023 19:10:24
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688755866455 status : SUCCESSFUL partner_transaction_id : 7fd8ljsxn0tuypjirifnb78 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 19:10:53
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 7fd8ljsxn0tuypjirifnb78 
+
+ERROR ERROR
+PERIODE: 07/07/2023 19:12:36
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 7fd8ljsxn0tuypjirifnb78 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 07/07/2023 19:17:30
+MESSAGE: Appel url notification ok rest traitement 0 : 7fd8ljsxn0tuypjirifnb78 
+
+ERROR INTOUCH
+PERIODE: 07/07/2023 19:17:30
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688755866455 status : SUCCESSFUL partner_transaction_id : 7fd8ljsxn0tuypjirifnb78 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 07/07/2023 19:17:33
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 7fd8ljsxn0tuypjirifnb78 
+
+ERROR ERROR
+PERIODE: 07/07/2023 19:19:16
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 7fd8ljsxn0tuypjirifnb78 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 10/07/2023 09:45:43
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR INTOUCH
+PERIODE: 10/07/2023 09:45:44
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688774917192 status : SUCCESSFUL partner_transaction_id : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 10/07/2023 09:46:09
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR ERROR
+PERIODE: 10/07/2023 09:56:55
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. e06a02c3-b05a-44b3-a9ac-9b3b967b4646 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 10/07/2023 10:37:39
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR INTOUCH
+PERIODE: 10/07/2023 10:37:39
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688774917192 status : SUCCESSFUL partner_transaction_id : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 10/07/2023 10:37:43
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR ERROR
+PERIODE: 10/07/2023 10:39:25
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. e06a02c3-b05a-44b3-a9ac-9b3b967b4646 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 10/07/2023 11:00:22
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR INTOUCH
+PERIODE: 10/07/2023 11:00:23
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688774917192 status : SUCCESSFUL partner_transaction_id : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 10/07/2023 11:01:34
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR ERROR
+PERIODE: 10/07/2023 11:04:25
+MESSAGE: Traitement url notification ok : Transaction ok : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 Operation being processed. FALSE Le client n''existe pas !!! 
+
+ERROR CINETPAY
+PERIODE: 10/07/2023 11:05:20
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR INTOUCH
+PERIODE: 10/07/2023 11:05:21
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688774917192 status : SUCCESSFUL partner_transaction_id : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 10/07/2023 11:05:33
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR CINETPAY
+PERIODE: 10/07/2023 11:08:21
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR INTOUCH
+PERIODE: 10/07/2023 11:08:21
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688774917192 status : SUCCESSFUL partner_transaction_id : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 10/07/2023 11:08:36
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR ERROR
+PERIODE: 10/07/2023 11:11:49
+MESSAGE: Traitement url notification ok : Transaction ok : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 Operation being processed. FALSE Impossible de supprimer le table '##TYPEOPRATIONTONTINC', car il n'existe pas ou vous ne possédez pas d'autorisation. 
+
+ERROR ERROR
+PERIODE: 10/07/2023 11:11:49
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. e06a02c3-b05a-44b3-a9ac-9b3b967b4646 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 10/07/2023 11:45:19
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR INTOUCH
+PERIODE: 10/07/2023 11:45:19
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688774917192 status : SUCCESSFUL partner_transaction_id : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 10/07/2023 11:45:29
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR ERROR
+PERIODE: 10/07/2023 11:46:36
+MESSAGE: Traitement url notification ok : Transaction ok : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 Operation being processed. FALSE Le client n''existe pas !!! 
+
+ERROR CINETPAY
+PERIODE: 10/07/2023 11:49:23
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR INTOUCH
+PERIODE: 10/07/2023 11:49:25
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688774917192 status : SUCCESSFUL partner_transaction_id : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 10/07/2023 11:49:45
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR ERROR
+PERIODE: 10/07/2023 11:52:01
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. e06a02c3-b05a-44b3-a9ac-9b3b967b4646 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 10/07/2023 12:00:51
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR INTOUCH
+PERIODE: 10/07/2023 12:00:53
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688774917192 status : SUCCESSFUL partner_transaction_id : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 10/07/2023 12:01:08
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR ERROR
+PERIODE: 10/07/2023 12:02:19
+MESSAGE: Traitement url notification ok : Transaction ok : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 Operation being processed. TRUE L opération a été réalisée avec succès  !!! Le compte fournisseur de sms doit être bien conficugré !!! CL_EMETTEUR 
+
+ERROR CINETPAY
+PERIODE: 11/07/2023 19:57:56
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR CINETPAY
+PERIODE: 11/07/2023 20:01:57
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:11:24
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR INTOUCH
+PERIODE: 12/07/2023 11:11:29
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688774917192 status : SUCCESSFUL partner_transaction_id : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 12/07/2023 11:12:47
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. e06a02c3-b05a-44b3-a9ac-9b3b967b4646 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:14:16
+MESSAGE: Appel url notification ok rest traitement 0 : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 
+
+ERROR INTOUCH
+PERIODE: 12/07/2023 11:14:17
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1688774917192 status : SUCCESSFUL partner_transaction_id : e06a02c3-b05a-44b3-a9ac-9b3b967b4646 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 12/07/2023 11:15:36
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. e06a02c3-b05a-44b3-a9ac-9b3b967b4646 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:19:25
+MESSAGE: Appel url notification ok rest traitement 0 : a028ljyq3c5yqvhdagv4ou 
+
+ERROR INTOUCH
+PERIODE: 12/07/2023 11:19:26
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1689105989953 status : SUCCESSFUL partner_transaction_id : a028ljyq3c5yqvhdagv4ou partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 12/07/2023 11:20:45
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. a028ljyq3c5yqvhdagv4ou status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:21:50
+MESSAGE: Appel url notification ok rest traitement 0 : a028ljyq3c5yqvhdagv4ou 
+
+ERROR INTOUCH
+PERIODE: 12/07/2023 11:21:50
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1689105989953 status : SUCCESSFUL partner_transaction_id : a028ljyq3c5yqvhdagv4ou partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 12/07/2023 11:25:22
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. a028ljyq3c5yqvhdagv4ou status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:38:05
+MESSAGE: Appel url notification ok rest traitement 0 : 2c7649af-c820-4faa-b62b-18f8e7d4969b 
+
+ERROR INTOUCH
+PERIODE: 12/07/2023 11:38:07
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1689105989953 status : SUCCESSFUL partner_transaction_id : 2c7649af-c820-4faa-b62b-18f8e7d4969b partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 12/07/2023 11:43:12
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 2c7649af-c820-4faa-b62b-18f8e7d4969b status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:43:21
+MESSAGE: Appel url notification ok rest traitement 0 : 2c7649af-c820-4faa-b62b-18f8e7d4969b 
+
+ERROR INTOUCH
+PERIODE: 12/07/2023 11:43:21
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1689105989953 status : SUCCESSFUL partner_transaction_id : 2c7649af-c820-4faa-b62b-18f8e7d4969b partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 12/07/2023 11:44:46
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c7649af-c820-4faa-b62b-18f8e7d4969b 
+
+ERROR ERROR
+PERIODE: 12/07/2023 11:46:57
+MESSAGE: Traitement url notification ok : Transaction ok : 2c7649af-c820-4faa-b62b-18f8e7d4969b Operation being processed. FALSE La carte est clôturée !!! 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:48:57
+MESSAGE: Appel url notification ok rest traitement 0 : 598874d8-ad5d-4f75-bd84-7362939a90ab 
+
+ERROR ERROR
+PERIODE: 12/07/2023 11:49:15
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. 598874d8-ad5d-4f75-bd84-7362939a90ab 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:50:03
+MESSAGE: Appel url notification ok rest traitement 0 : 598874d8-ad5d-4f75-bd84-7362939a90ab 
+
+ERROR ERROR
+PERIODE: 12/07/2023 11:50:31
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 598874d8-ad5d-4f75-bd84-7362939a90ab 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:51:02
+MESSAGE: Appel url notification ok rest traitement 0 : 598874d8-ad5d-4f75-bd84-7362939a90ab 
+
+ERROR ERROR
+PERIODE: 12/07/2023 11:51:10
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 598874d8-ad5d-4f75-bd84-7362939a90ab 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:52:19
+MESSAGE: Appel url notification ok rest traitement 0 : 598874d8-ad5d-4f75-bd84-7362939a90ab 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 11:54:09
+MESSAGE: Appel url notification ok rest traitement 0 : 598874d8-ad5d-4f75-bd84-7362939a90ab 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 12:09:36
+MESSAGE: Appel url notification ok rest traitement 0 : 2c7649af-c820-4faa-b62b-18f8e7d4969b 
+
+ERROR INTOUCH
+PERIODE: 12/07/2023 12:09:36
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1689105989953 status : SUCCESSFUL partner_transaction_id : 2c7649af-c820-4faa-b62b-18f8e7d4969b partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 12/07/2023 12:11:16
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 2c7649af-c820-4faa-b62b-18f8e7d4969b status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 12:21:23
+MESSAGE: Appel url notification ok rest traitement 0 : 1678386550036 
+
+ERROR INTOUCH
+PERIODE: 12/07/2023 12:21:25
+MESSAGE: Information postées : service_idCASHINOMCIPART gu_transaction_id : 1689105989953 status : SUCCESSFUL partner_transaction_id : 1678386550036 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 12/07/2023 12:22:18
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 1678386550036 
+
+ERROR ERROR
+PERIODE: 12/07/2023 12:24:15
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. 1678386550036 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 12:25:47
+MESSAGE: Appel url notification ok rest traitement 0 : 1678386550036 
+
+ERROR ERROR
+PERIODE: 12/07/2023 12:27:13
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1678386550036 
+
+ERROR CINETPAY
+PERIODE: 12/07/2023 12:28:34
+MESSAGE: Appel url notification ok rest traitement 0 : 1678386550036 
+
+ERROR ERROR
+PERIODE: 12/07/2023 12:32:59
+MESSAGE: Traitement url notification ok : Error : Echec, votre paiement a échoué: 1678386550036 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:18:24
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 10:19:16
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:21:08
+MESSAGE: Traitement url notification ok : Transaction ok : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:21:13
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 10:21:17
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:22:22
+MESSAGE: Traitement url notification ok : Transaction ok : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:23:09
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 10:23:12
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:23:21
+MESSAGE: Traitement url notification ok : Transaction ok : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:23:54
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 10:24:07
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:24:14
+MESSAGE: Traitement url notification ok : Transaction ok : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:24:52
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 10:25:46
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:25:57
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:27:16
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:27:32
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:28:14
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 10:28:22
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:29:13
+MESSAGE: Traitement url notification ok : Transaction ok : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:29:22
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 10:30:38
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:32:18
+MESSAGE: Traitement url notification ok : Transaction ok : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:34:17
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 10:35:02
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:36:10
+MESSAGE: Traitement url notification ok : Transaction ok : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:36:25
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 10:36:31
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:39:17
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 10:58:19
+MESSAGE: Appel url notification ok rest traitement 0 : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 10:59:33
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 47ad9493-fd6a-4bb4-a716-6301b00f29f6 
+
+ERROR ERROR
+PERIODE: 18/07/2023 10:59:37
+MESSAGE: Traitement url notification ok : Transaction ok : 47ad9493-fd6a-4bb4-a716-6301b00f29f6 SUCCES FALSE La requête paramétrée '(@CODECRYPTAGE nvarchar(14),@LG_CODELANGUE nvarchar(2),@AG_CODEA' attend le paramètre @DATEJOURNEE, qui n'a pas été fourni. 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 15:48:07
+MESSAGE: Appel url notification ok rest traitement 0 : bfb0b21c-565c-4ebc-875d-8ae83f69121a 
+
+ERROR INTOUCH
+PERIODE: 18/07/2023 15:48:09
+MESSAGE: Information postées : service_idPAIEMENTMARCHAND_MTN_CI gu_transaction_id : 1689693657718 status : SUCCESSFUL partner_transaction_id : bfb0b21c-565c-4ebc-875d-8ae83f69121a partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 15:49:14
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: bfb0b21c-565c-4ebc-875d-8ae83f69121a 
+
+ERROR ERROR
+PERIODE: 18/07/2023 15:54:45
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. bfb0b21c-565c-4ebc-875d-8ae83f69121a status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 17:50:03
+MESSAGE: Appel url notification ok rest traitement 0 : 28f1lk8k7owzlk09fdkf7h 
+
+ERROR INTOUCH
+PERIODE: 18/07/2023 17:50:06
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689700779390 status : SUCCESSFUL partner_transaction_id : 28f1lk8k7owzlk09fdkf7h partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 17:50:57
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 28f1lk8k7owzlk09fdkf7h 
+
+ERROR ERROR
+PERIODE: 18/07/2023 17:54:43
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 28f1lk8k7owzlk09fdkf7h status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 17:55:17
+MESSAGE: Appel url notification ok rest traitement 0 : 28f1lk8k7owzlk09fdkf7h 
+
+ERROR INTOUCH
+PERIODE: 18/07/2023 17:55:17
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689700779390 status : SUCCESSFUL partner_transaction_id : 28f1lk8k7owzlk09fdkf7h partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 17:55:19
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 28f1lk8k7owzlk09fdkf7h 
+
+ERROR ERROR
+PERIODE: 18/07/2023 17:57:02
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 28f1lk8k7owzlk09fdkf7h status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 19:29:08
+MESSAGE: Appel url notification ok rest traitement 0 : 697clk8ngh0b583ecfo99em 
+
+ERROR INTOUCH
+PERIODE: 18/07/2023 19:29:08
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689706224016 status : SUCCESSFUL partner_transaction_id : 697clk8ngh0b583ecfo99em partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 19:29:10
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 697clk8ngh0b583ecfo99em 
+
+ERROR ERROR
+PERIODE: 18/07/2023 19:30:54
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 697clk8ngh0b583ecfo99em status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 18/07/2023 20:25:25
+MESSAGE: Appel url notification ok rest traitement 0 : 697clk8ngh0b583ecfo99em 
+
+ERROR INTOUCH
+PERIODE: 18/07/2023 20:25:25
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689706224016 status : SUCCESSFUL partner_transaction_id : 697clk8ngh0b583ecfo99em partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 18/07/2023 20:25:36
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 697clk8ngh0b583ecfo99em 
+
+ERROR ERROR
+PERIODE: 18/07/2023 20:27:06
+MESSAGE: Traitement url notification ok : Transaction ok : 697clk8ngh0b583ecfo99em Operation being processed. FALSE La transaction à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 11:14:41
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 11:14:42
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 11:15:08
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 11:16:24
+MESSAGE: Traitement url notification ok : Transaction ok : 2c40lk9lq8pde7clxixnyg Operation being processed. FALSE Impossible d'insérer la valeur NULL dans la colonne 'PL_CODENUMCOMPTE', table 'dbVitalFinanceRemuci.dbo.MOUVEMENTCOMPTABLE'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT.
+L'instruction a été arrêtée. 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 11:16:32
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 11:16:32
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 11:16:34
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 11:18:16
+MESSAGE: Traitement url notification ok: Error : La demande a été abandonnée : Le délai d'attente de l'opération a expiré.. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 11:58:46
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 11:58:48
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 11:59:32
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 11:59:44
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 11:59:44
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 12:00:21
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 12:07:59
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 12:08:00
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 12:08:22
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 12:08:56
+MESSAGE: Traitement url notification ok : Transaction ok : 2c40lk9lq8pde7clxixnyg Operation being processed. FALSE Impossible d'insérer la valeur NULL dans la colonne 'PL_CODENUMCOMPTE', table 'dbVitalFinanceRemuci.dbo.MOUVEMENTCOMPTABLE'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT.
+L'instruction a été arrêtée. 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 12:09:16
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 12:09:16
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 12:09:18
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 12:11:03
+MESSAGE: Traitement url notification ok: Error : La demande a été abandonnée : Le délai d'attente de l'opération a expiré.. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 12:12:01
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 12:12:01
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 12:12:02
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 12:13:45
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 12:22:41
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 12:22:41
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 12:22:45
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 12:27:29
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 12:27:29
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 12:27:33
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 12:27:43
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 12:27:44
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 12:28:08
+MESSAGE: Traitement url notification ok: Error : Impossible de se connecter au serveur distant 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 12:28:37
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 12:28:37
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 12:28:44
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 12:30:27
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 12:40:40
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 12:40:40
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 12:41:03
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 12:41:03
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 12:41:43
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR ERROR
+PERIODE: 19/07/2023 12:43:03
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 14:00:37
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 14:00:52
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 14:07:43
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 14:14:23
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 14:14:25
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 14:16:23
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 14:16:30
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 14:16:30
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 14:18:10
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 14:20:11
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 14:20:11
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 14:21:17
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 14:39:26
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 14:39:30
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 14:39:30
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 14:39:36
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 14:40:43
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 14:43:07
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 14:43:07
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 14:43:18
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 14:44:53
+MESSAGE: Traitement url notification ok: Error : La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 14:52:49
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 14:52:49
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 14:53:02
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 14:53:36
+MESSAGE: Traitement url notification ok : Transaction ok : 2c40lk9lq8pde7clxixnyg Operation being processed. FALSE La transaction à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 14:56:24
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 14:56:24
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 14:56:27
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 14:57:49
+MESSAGE: Traitement url notification ok : Transaction ok : 2c40lk9lq8pde7clxixnyg Operation being processed. FALSE Impossible d'insérer la valeur NULL dans la colonne 'PL_CODENUMCOMPTE', table 'dbVitalFinanceRemuci.dbo.MOUVEMENTCOMPTABLE'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT.
+L'instruction a été arrêtée. 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 14:57:59
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 14:57:59
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 14:58:02
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 14:58:29
+MESSAGE: Traitement url notification ok : Transaction ok : 2c40lk9lq8pde7clxixnyg Operation being processed. FALSE Impossible d'insérer la valeur NULL dans la colonne 'PL_CODENUMCOMPTE', table 'dbVitalFinanceRemuci.dbo.MOUVEMENTCOMPTABLE'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT.
+L'instruction a été arrêtée. 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 16:43:20
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 16:43:20
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 16:43:26
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (500) Erreur interne du serveur. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 16:43:45
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 16:43:46
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/07/2023 16:43:57
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (500) Erreur interne du serveur. 2c40lk9lq8pde7clxixnyg status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 16:46:44
+MESSAGE: Appel url notification ok rest traitement 0 : 2c40lk9lq8pde7clxixnyg 
+
+ERROR INTOUCH
+PERIODE: 19/07/2023 16:46:44
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1689763793813 status : SUCCESSFUL partner_transaction_id : 2c40lk9lq8pde7clxixnyg partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 16:46:51
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 2c40lk9lq8pde7clxixnyg 
+
+ERROR ERROR
+PERIODE: 19/07/2023 16:47:34
+MESSAGE: Traitement url notification ok : Transaction ok : 2c40lk9lq8pde7clxixnyg Operation being processed. TRUE Transfert réalisé avec succès !!! 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 18:50:46
+MESSAGE: Appel url notification ok rest traitement 0 : b7e0lka17bm5uypyx4nhn69 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 18:54:06
+MESSAGE: Appel url notification ok rest traitement 0 : b7e0lka17bm5uypyx4nhn69 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 18:54:42
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: b7e0lka17bm5uypyx4nhn69 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 18:58:47
+MESSAGE: Appel url notification ok rest traitement 0 : b7e0lka17bm5uypyx4nhn69 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 18:58:51
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: b7e0lka17bm5uypyx4nhn69 
+
+ERROR ERROR
+PERIODE: 19/07/2023 19:00:32
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. b7e0lka17bm5uypyx4nhn69 
+
+ERROR CINETPAY
+PERIODE: 19/07/2023 19:35:41
+MESSAGE: Appel url notification ok rest traitement 0 : b7e0lka17bm5uypyx4nhn69 
+
+ERROR SUCCESS
+PERIODE: 19/07/2023 19:35:48
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: b7e0lka17bm5uypyx4nhn69 
+
+ERROR ERROR
+PERIODE: 19/07/2023 19:38:13
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. b7e0lka17bm5uypyx4nhn69 
+
+ERROR CINETPAY
+PERIODE: 11/09/2023 17:43:26
+MESSAGE: Appel url notification ok rest traitement 0 : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR INTOUCH
+PERIODE: 11/09/2023 17:43:27
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1694451144615 status : SUCCESSFUL partner_transaction_id : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 11/09/2023 17:43:51
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 11/09/2023 17:44:07
+MESSAGE: Appel url notification ok rest traitement 0 : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR INTOUCH
+PERIODE: 11/09/2023 17:44:09
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1694451144615 status : SUCCESSFUL partner_transaction_id : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 11/09/2023 17:44:57
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 11/09/2023 17:45:38
+MESSAGE: Appel url notification ok rest traitement 0 : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR INTOUCH
+PERIODE: 11/09/2023 17:45:38
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1694451144615 status : SUCCESSFUL partner_transaction_id : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 11/09/2023 17:45:45
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 11/09/2023 17:46:03
+MESSAGE: Appel url notification ok rest traitement 0 : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR INTOUCH
+PERIODE: 11/09/2023 17:46:06
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1694451144615 status : SUCCESSFUL partner_transaction_id : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 11/09/2023 17:46:43
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 11/09/2023 17:48:33
+MESSAGE: Appel url notification ok rest traitement 0 : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR INTOUCH
+PERIODE: 11/09/2023 17:48:35
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1694451144615 status : SUCCESSFUL partner_transaction_id : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 11/09/2023 17:49:08
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 11/09/2023 18:07:21
+MESSAGE: Appel url notification ok rest traitement 0 : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR INTOUCH
+PERIODE: 11/09/2023 18:07:23
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1694451144615 status : SUCCESSFUL partner_transaction_id : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 11/09/2023 18:07:47
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR ERROR
+PERIODE: 11/09/2023 18:08:28
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 11/09/2023 18:08:35
+MESSAGE: Appel url notification ok rest traitement 0 : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR INTOUCH
+PERIODE: 11/09/2023 18:08:35
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1694451144615 status : SUCCESSFUL partner_transaction_id : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 11/09/2023 18:08:57
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR ERROR
+PERIODE: 11/09/2023 18:10:02
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 11/09/2023 18:12:01
+MESSAGE: Appel url notification ok rest traitement 0 : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR INTOUCH
+PERIODE: 11/09/2023 18:12:01
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1694451144615 status : SUCCESSFUL partner_transaction_id : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 11/09/2023 18:12:04
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 
+
+ERROR ERROR
+PERIODE: 11/09/2023 18:12:58
+MESSAGE: Traitement url notification ok : Transaction ok : 00003672ac823-11b7-40df-a4cc-16e74ebdb5e2 Operation being processed. TRUE L opération a été réalisée avec succès  !!! 
+
+ERROR CINETPAY
+PERIODE: 21/09/2023 18:39:39
+MESSAGE: Appel url notification ok rest traitement 0 : 00004045blmthteyhljafixkf 
+
+ERROR INTOUCH
+PERIODE: 21/09/2023 18:39:42
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695320174054 status : SUCCESSFUL partner_transaction_id : 00004045blmthteyhljafixkf partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 21/09/2023 18:40:49
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 00004045blmthteyhljafixkf 
+
+ERROR CINETPAY
+PERIODE: 21/09/2023 18:46:47
+MESSAGE: Appel url notification ok rest traitement 0 : 00004045blmthteyhljafixkf 
+
+ERROR INTOUCH
+PERIODE: 21/09/2023 18:46:47
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695320174054 status : SUCCESSFUL partner_transaction_id : 00004045blmthteyhljafixkf partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 21/09/2023 18:46:49
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 00004045blmthteyhljafixkf 
+
+ERROR ERROR
+PERIODE: 21/09/2023 18:50:19
+MESSAGE: Traitement url notification ok : Transaction ok : 00004045blmthteyhljafixkf Operation being processed. TRUE Transfert réalisé avec succès !!! 
+
+ERROR CINETPAY
+PERIODE: 21/09/2023 18:55:18
+MESSAGE: Appel url notification ok rest traitement 0 : 00004045blmthteyhljafixkf 
+
+ERROR INTOUCH
+PERIODE: 21/09/2023 18:55:18
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695320174054 status : SUCCESSFUL partner_transaction_id : 00004045blmthteyhljafixkf partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 21/09/2023 18:55:20
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 00004045blmthteyhljafixkf 
+
+ERROR ERROR
+PERIODE: 21/09/2023 18:56:58
+MESSAGE: Traitement url notification ok : Transaction ok : 00004045blmthteyhljafixkf Operation being processed. FALSE La transaction à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 21/09/2023 20:33:15
+MESSAGE: Appel url notification ok rest traitement 0 : 00004045blmthteyhljafixkf 
+
+ERROR INTOUCH
+PERIODE: 21/09/2023 20:33:16
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695320174054 status : SUCCESSFUL partner_transaction_id : 00004045blmthteyhljafixkf partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 21/09/2023 20:33:29
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 00004045blmthteyhljafixkf 
+
+ERROR CINETPAY
+PERIODE: 21/09/2023 20:36:33
+MESSAGE: Appel url notification ok rest traitement 0 : 00004045blmthteyhljafixkf 
+
+ERROR INTOUCH
+PERIODE: 21/09/2023 20:36:33
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695320174054 status : SUCCESSFUL partner_transaction_id : 00004045blmthteyhljafixkf partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 21/09/2023 20:36:35
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 00004045blmthteyhljafixkf 
+
+ERROR CINETPAY
+PERIODE: 21/09/2023 20:40:22
+MESSAGE: Appel url notification ok rest traitement 0 : 00004045blmthteyhljafixkf 
+
+ERROR INTOUCH
+PERIODE: 21/09/2023 20:40:22
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695320174054 status : SUCCESSFUL partner_transaction_id : 00004045blmthteyhljafixkf partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 21/09/2023 20:40:34
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 00004045blmthteyhljafixkf 
+
+ERROR CINETPAY
+PERIODE: 21/09/2023 20:43:15
+MESSAGE: Appel url notification ok rest traitement 0 : 00004045blmthteyhljafixkf 
+
+ERROR INTOUCH
+PERIODE: 21/09/2023 20:43:15
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695320174054 status : SUCCESSFUL partner_transaction_id : 00004045blmthteyhljafixkf partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 21/09/2023 20:43:23
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 00004045blmthteyhljafixkf 
+
+ERROR CINETPAY
+PERIODE: 21/09/2023 21:08:02
+MESSAGE: Appel url notification ok rest traitement 0 : 000041f38lmtnjlmlhpohbxi3 
+
+ERROR INTOUCH
+PERIODE: 21/09/2023 21:08:02
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695329741251 status : SUCCESSFUL partner_transaction_id : 000041f38lmtnjlmlhpohbxi3 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 21/09/2023 21:08:04
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 000041f38lmtnjlmlhpohbxi3 
+
+ERROR CINETPAY
+PERIODE: 20/10/2023 12:28:50
+MESSAGE: Appel url notification ok rest traitement 0 : 00100d54b6cfe-1613-4327-91d0-c473bf364c69 
+
+ERROR INTOUCH
+PERIODE: 20/10/2023 12:28:54
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695329741251 status : SUCCESSFUL partner_transaction_id : 00100d54b6cfe-1613-4327-91d0-c473bf364c69 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 20/10/2023 12:30:17
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (404) Introuvable. 00100d54b6cfe-1613-4327-91d0-c473bf364c69 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 20/10/2023 12:36:31
+MESSAGE: Appel url notification ok rest traitement 0 : 00100d54b6cfe-1613-4327-91d0-c473bf364c69 
+
+ERROR INTOUCH
+PERIODE: 20/10/2023 12:36:32
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695329741251 status : SUCCESSFUL partner_transaction_id : 00100d54b6cfe-1613-4327-91d0-c473bf364c69 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 20/10/2023 12:36:45
+MESSAGE: Traitement url notification ok: Error : La référence d'objet n'est pas définie à une instance d'un objet. 00100d54b6cfe-1613-4327-91d0-c473bf364c69 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/02/2024 19:15:18
+MESSAGE: Appel url notification ok rest traitement 0 : 001022edelst6k0plr2fqrsp2 
+
+ERROR INTOUCH
+PERIODE: 19/02/2024 19:15:28
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695329741251 status : SUCCESSFUL partner_transaction_id : 001022edelst6k0plr2fqrsp2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR ERROR
+PERIODE: 19/02/2024 19:18:43
+MESSAGE: Traitement url notification ok: Error : Le délai d'attente de l'opération a expiré. 001022edelst6k0plr2fqrsp2 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/02/2024 19:20:00
+MESSAGE: Appel url notification ok rest traitement 0 : 001022edelst6k0plr2fqrsp2 
+
+ERROR INTOUCH
+PERIODE: 19/02/2024 19:20:02
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695329741251 status : SUCCESSFUL partner_transaction_id : 001022edelst6k0plr2fqrsp2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/02/2024 19:21:01
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 001022edelst6k0plr2fqrsp2 
+
+ERROR ERROR
+PERIODE: 19/02/2024 19:22:20
+MESSAGE: Traitement url notification ok: Error : Le serveur distant a retourné une erreur : (400) Demande incorrecte. 001022edelst6k0plr2fqrsp2 status : SUCCESSFUL 
+
+ERROR CINETPAY
+PERIODE: 19/02/2024 19:23:02
+MESSAGE: Appel url notification ok rest traitement 0 : 001022edelst6k0plr2fqrsp2 
+
+ERROR INTOUCH
+PERIODE: 19/02/2024 19:23:02
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695329741251 status : SUCCESSFUL partner_transaction_id : 001022edelst6k0plr2fqrsp2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/02/2024 19:23:03
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 001022edelst6k0plr2fqrsp2 
+
+ERROR ERROR
+PERIODE: 19/02/2024 19:25:43
+MESSAGE: Traitement url notification ok : Transaction ok : 001022edelst6k0plr2fqrsp2 Operation being processed. FALSE Le délai d'exécution a expiré. Le délai d'attente s'est écoulé avant la fin de l'opération ou le serveur ne répond pas.
+Opération annulée par l'utilisateur. 
+
+ERROR CINETPAY
+PERIODE: 19/02/2024 19:25:50
+MESSAGE: Appel url notification ok rest traitement 0 : 001022edelst6k0plr2fqrsp2 
+
+ERROR INTOUCH
+PERIODE: 19/02/2024 19:25:50
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695329741251 status : SUCCESSFUL partner_transaction_id : 001022edelst6k0plr2fqrsp2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/02/2024 19:25:51
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 001022edelst6k0plr2fqrsp2 
+
+ERROR ERROR
+PERIODE: 19/02/2024 19:26:45
+MESSAGE: Traitement url notification ok : Transaction ok : 001022edelst6k0plr2fqrsp2 Operation being processed. FALSE La transaction à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 19/02/2024 19:51:25
+MESSAGE: Appel url notification ok rest traitement 0 : 001022edelst6k0plr2fqrsp2 
+
+ERROR INTOUCH
+PERIODE: 19/02/2024 19:51:26
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695329741251 status : SUCCESSFUL partner_transaction_id : 001022edelst6k0plr2fqrsp2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+
+ERROR SUCCESS
+PERIODE: 19/02/2024 19:51:57
+MESSAGE: Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: 001022edelst6k0plr2fqrsp2 
+
+ERROR ERROR
+PERIODE: 19/02/2024 19:55:59
+MESSAGE: Traitement url notification ok : Transaction ok : 001022edelst6k0plr2fqrsp2 Operation being processed. FALSE La transaction à déjà été validée !!! 
+
+ERROR CINETPAY
+PERIODE: 19/02/2024 20:10:29
+MESSAGE: Appel url notification ok rest traitement 0 : 001022edelst6k0plr2fqrsp2 
+
+ERROR INTOUCH
+PERIODE: 19/02/2024 20:10:29
+MESSAGE: Information postées : service_idPAIEMENTMARCHANDOMPAYCIDIRECT gu_transaction_id : 1695329741251 status : SUCCESSFUL partner_transaction_id : 001022edelst6k0plr2fqrsp2 partner_transaction_id : https://intouchtest.mgdigitalplus.com/Intouchtontinemobile/ commission : 1 message : Operation being processed. 
+

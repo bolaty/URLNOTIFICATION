@@ -1,0 +1,1109 @@
+﻿using CinetPay.Plugin.Rules;
+using MS_SDK.CinetPayNet;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Net.Mail;
+using System.Threading;
+using System.Web;
+using System.Web.Mvc;
+using UrlNotificationCinetPayPayIn.Modules;
+
+
+namespace UrlNotificationCinetPayPayIn.Controllers
+{
+    public class ZenithMobileCinetPayController : Controller
+    {
+
+        String AG_CODEAGENCE = "";
+        String SO_TELEPHONE = "";
+        public static System.Net.Security.RemoteCertificateValidationCallback ServerCertificateValidationCallback { get; set; }
+        public ActionResult Index(string cpm_trans_id, string code)
+        {
+            ViewData["cpm_trans_id"] = cpm_trans_id;
+            return View("Affiche");
+        }
+
+        Modules.Logger loggerHT;
+
+        [HttpPost]//===Cinetpay
+        public ActionResult Index(string cpm_trans_id)
+        {
+            var culture = new System.Globalization.CultureInfo("fr-FR");
+            Thread.CurrentThread.CurrentCulture = culture;
+
+            string cinqPremiersCaracteres = cpm_trans_id.Substring(0, 5);
+
+            string URL_ROOT_ADRESSE_API = ConfigurationManager.AppSettings["URLZENITHMOBILE" + cinqPremiersCaracteres];
+
+            string path = Server.MapPath("~/Loggers/");
+
+
+            //--Envoi de sms Appel url notification
+            loggerHT = new Modules.Logger();
+            loggerHT.Log(path, "Cinetpay", "Appel url notification ok rest traitement 0 : " + cpm_trans_id);
+            //sendsms("Appel url notification ok rest traitement 0 : " + cpm_trans_id);
+
+            //--Log Test
+            clsLog.EcrireDansFichierLog("Cinetpay :" + cpm_trans_id);
+
+            //--1-vérification des paramètres
+            //
+
+            ViewData["cpm_trans_id"] = cpm_trans_id;
+            if (cpm_trans_id == null || cpm_trans_id == "")
+                return View("Affiche");
+
+
+            string tran_id = cpm_trans_id;
+            string CODESERVICE = "";
+            string ApikeyInfo = "";
+            string Cpm_Site_Idinfo = "";
+            //==================
+            //CinetPayDTO model1 = new CinetPayDTO();
+            //model1.Apikey = "1627935685ec3d07629c6c5.20300096";
+            //model1.Mode = "PROD";
+            //model1.Cpm_Trans_Id = tran_id;
+            //model1.Cpm_Site_Id = "718095";
+            //==================
+
+
+            UrlNotificationCinetPayPayIn.Models.clsResultatMobileTransactionMobileBanking Resultats1 = new Models.clsResultatMobileTransactionMobileBanking();
+
+            try
+            {
+                using (var webClient = new WebClient())
+                {
+                    //--3--Récupération des informations de l'agence
+                    UrlNotificationCinetPayPayIn.Models.clsObjetEnvoiInfoAgence clsObjetEnvoiInfoAgence = new Models.clsObjetEnvoiInfoAgence();
+                    clsObjetEnvoiInfoAgence.DT_NUMEROTRANSACTION = tran_id;
+                    clsObjetEnvoiInfoAgence.LG_CODELANGUE = "FR";
+                    string jsonAgence = JsonConvert.SerializeObject(clsObjetEnvoiInfoAgence);
+
+                    var httpWebRequest0 = (HttpWebRequest)WebRequest.Create(URL_ROOT_ADRESSE_API + "pvgInfoAgenceOperation");
+                    httpWebRequest0.ContentType = "application/json";
+                    httpWebRequest0.Method = "POST";
+
+                    //==================18/09/2020
+                    // using System.Net;
+                    // ServicePointManager.Expect100Continue = true;
+                    //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                    // Use SecurityProtocolType.Ssl3 if needed for compatibility reasons
+                    //==================
+
+                    using (var streamWriter = new StreamWriter(httpWebRequest0.GetRequestStream()))
+                    {
+                        streamWriter.Write(jsonAgence);
+                    }
+                    ServicePointManager.CertificatePolicy = new TrustAllCertificatePolicy();
+
+
+                    var httpResponse0 = (HttpWebResponse)httpWebRequest0.GetResponse();
+                    using (var streamReader = new StreamReader(httpResponse0.GetResponseStream()))
+                    {
+                        var response = streamReader.ReadToEnd();
+                        String responses = response;
+                        string NewISOmsg = responses.Substring(1, responses.Length - 2);
+                        NewISOmsg = NewISOmsg.Replace("\"pvgInfoAgenceOperationResult\":", "");
+                        UrlNotificationCinetPayPayIn.Models.clsInfoSouscriptionMobile Resultats = JsonConvert.DeserializeObject<UrlNotificationCinetPayPayIn.Models.clsInfoSouscriptionMobile>(NewISOmsg);
+
+                        AG_CODEAGENCE = Resultats.AG_CODEAGENCE;
+                        SO_TELEPHONE = Resultats.SO_TELEPHONE;
+
+                        ApikeyInfo = Resultats.AG_CINETAPIKEY;
+                        Cpm_Site_Idinfo = Resultats.AG_CINETSITEID;
+
+                        CODESERVICE = pvgServiceIdInToush(SO_TELEPHONE, "CASHIN");
+
+                        if (string.IsNullOrEmpty(AG_CODEAGENCE))
+                        {
+                            //ViewBag.Message = "Echec, votre paiement a échoué";
+                            ViewData["data"] = "Error: Récuperation d'agence !!!";
+                            // sendsms("Traitement url notification ok : Error : Echec, votre paiement a échoué: " + cpm_trans_id);
+
+                            loggerHT = new Modules.Logger();
+                            loggerHT.Log(path, "Error", "Récuperation d'agence !!! : " + cpm_trans_id);
+
+                            return View();
+                        }
+
+
+                    }
+                }
+
+
+
+                //    var obj = new PropertyCinetPay()
+                //    {
+                //        //cfg_apikey = "21125435325b3ba36d7d7063.18973709",
+                //        //cfg_cpm_site_id = "339165",
+
+
+                //        cfg_apikey = "1627935685ec3d07629c6c5.20300096",
+                //        cfg_cpm_site_id = "718095",
+                //        cfg_cpm_trans_id = tran_id,
+                //        cfg_cpm_version = "v1",
+                //        //cfg_cpm_trans_date = $"{DateTime.Now.Year}-{DateTime.Now.Month}-{DateTime.Now.Day} " +
+                //        //$"{DateTime.Now.Hour}"
+                //    };
+
+                // Nouvelle instance de la classe
+                //var model = new CinetPayDTO()
+                //{
+                //    Mode = "PROD",
+                //    Apikey = "1627935685ec3d07629c6c5.20300096",
+                //    Cpm_Site_Id = "718095",
+
+                //    Cpm_Amount = 100,
+                //    Cpm_Custom = "Test nouveau SDK",
+                //    Cpm_Designation = "New sdk cinetpay test",
+                //    Cpm_Trans_Date = $"{DateTime.Now.Year}-" +
+                //                    $"{(DateTime.Now.Month < 10 ? ("0" + DateTime.Now.Month.ToString()) : DateTime.Now.Month.ToString())}-" +
+                //                    $"{(DateTime.Now.Day < 10 ? ("0" + DateTime.Now.Day.ToString()) : DateTime.Now.Day.ToString())} " +
+                //                    $"{(DateTime.Now.Hour < 10 ? "0" + DateTime.Now.Hour.ToString() : DateTime.Now.Hour.ToString())}:" +
+                //                    $"{(DateTime.Now.Minute < 10 ? "0" + DateTime.Now.Minute.ToString() : DateTime.Now.Minute.ToString())}:" +
+                //                    $"{(DateTime.Now.Second < 10 ? "0" + DateTime.Now.Second.ToString() : DateTime.Now.Second.ToString())}",
+                //    Cpm_Trans_Id = tran_id,// "PP-201202-ML",
+                //    Version = "V1",
+                //    Cancel_Url = "http://urlnot.askrproducts-services.com",
+                //    Notify_Url = "http://urlnot.askrproducts-services.com",
+                //    Return_Url = "http://urlnot.askrproducts-services.com"
+                //};
+
+                ////==============RAFI
+                //CinetPayDTO model = new CinetPayDTO();
+                //model.Mode = "PROD";
+                //model.Apikey = "1627935685ec3d07629c6c5.20300096";
+                //model.Cpm_Site_Id = "718095";
+                //model.Cpm_Trans_Id = tran_id;
+                ////==============
+
+                ////==============HT
+                //CinetPayDTO model = new CinetPayDTO();
+                //model.Mode = "PROD";
+                //model.Apikey = "21125435325b3ba36d7d7063.18973709";
+                //model.Cpm_Site_Id = "339165";
+                //model.Cpm_Trans_Id = tran_id;
+                ////==============
+                //==============SIRUS
+                CinetPayDTO model = new CinetPayDTO();
+                //CL_EMETTEUR = clsChaineCaractere.ClasseChaineCaractere.pvgDeCrypter(clsWebConfig.ReadSetting("Cpm_Site_Id"));
+                model.Mode = "PROD";
+                model.Apikey = ApikeyInfo;// clsChaineCaractere.ClasseChaineCaractere.pvgDeCrypter(clsWebConfig.ReadSetting("Apikey" + AG_CODEAGENCE));// "5665035245ff47b56c24de1.90155398";
+                model.Cpm_Site_Id = Cpm_Site_Idinfo;// clsChaineCaractere.ClasseChaineCaractere.pvgDeCrypter(clsWebConfig.ReadSetting("Cpm_Site_Id" + AG_CODEAGENCE));// "595120";
+                model.Cpm_Trans_Id = tran_id;
+                //==============
+
+
+
+                //string path = Server.MapPath("~/Loggers/");
+                var cinetpayService = new CinetPaySdk(model);
+                cinetpayService.Path = path;
+                var data = cinetpayService.GetPayStatus();
+                if (data == null)
+                {
+                    //ViewBag.Message = "Echec, votre paiement a échoué";
+                    ViewData["data"] = "Error";
+                    // sendsms("Traitement url notification ok : Error : Echec, votre paiement a échoué: " + cpm_trans_id);
+
+                    loggerHT = new Modules.Logger();
+                    loggerHT.Log(path, "Error", "Traitement url notification ok : Error : Echec, votre paiement a échoué: " + cpm_trans_id);
+                }
+                else
+                {
+                    //ViewBag.Message = "Felicitation, votre paiement a été effectué avec succès";
+                    if (data != null)
+                    {
+                        ViewData["data"] = data;
+                        ViewData["cpm_trans_status"] = data.cpm_trans_status;
+                        ViewData["cpm_trans_date"] = data.cpm_trans_date;
+                        ViewData["cpm_amount"] = data.cpm_amount;
+                        ViewData["cpm_designation"] = data.cpm_designation;
+                        ViewData["cel_phone_num"] = data.cel_phone_num;
+
+                        if (data.cpm_result == "00")
+                        {
+                            loggerHT = new Modules.Logger();
+                            loggerHT.Log(path, "success", "Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: " + cpm_trans_id);
+                            // sendsms("Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: " + cpm_trans_id);
+
+                            String DT_NUMEROTRANSACTION = data.cpm_trans_id;//
+
+
+                            using (var webClient = new WebClient())
+                            {
+
+
+                                ////--3--Récupération des informations de l'agence
+                                //UrlNotificationCinetPayPayIn.Models.clsObjetEnvoiInfoAgence clsObjetEnvoiInfoAgence = new Models.clsObjetEnvoiInfoAgence();
+                                //clsObjetEnvoiInfoAgence.DT_NUMEROTRANSACTION = DT_NUMEROTRANSACTION;
+                                //clsObjetEnvoiInfoAgence.LG_CODELANGUE = "FR";
+                                //string jsonAgence = JsonConvert.SerializeObject(clsObjetEnvoiInfoAgence);
+
+                                //var httpWebRequest0 = (HttpWebRequest)WebRequest.Create(URL_ROOT_ADRESSE_API + "pvgInfoAgenceOperation");
+                                //httpWebRequest0.ContentType = "application/json";
+                                //httpWebRequest0.Method = "POST";
+
+                                ////==================18/09/2020
+                                //// using System.Net;
+                                //// ServicePointManager.Expect100Continue = true;
+                                ////ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                                //// Use SecurityProtocolType.Ssl3 if needed for compatibility reasons
+                                ////==================
+
+                                //using (var streamWriter = new StreamWriter(httpWebRequest0.GetRequestStream()))
+                                //{
+                                //    streamWriter.Write(jsonAgence);
+                                //}
+                                //ServicePointManager.CertificatePolicy = new TrustAllCertificatePolicy();
+
+
+                                //var httpResponse0 = (HttpWebResponse)httpWebRequest0.GetResponse();
+                                //using (var streamReader = new StreamReader(httpResponse0.GetResponseStream()))
+                                //{
+                                //    var response = streamReader.ReadToEnd();
+                                //    String responses = response;
+                                //    string NewISOmsg = responses.Substring(1, responses.Length - 2);
+                                //    NewISOmsg = NewISOmsg.Replace("\"pvgInfoAgenceOperationResult\":", "");
+                                //    UrlNotificationCinetPayPayIn.Models.clsInfoSouscriptionMobile Resultats = JsonConvert.DeserializeObject<UrlNotificationCinetPayPayIn.Models.clsInfoSouscriptionMobile>(NewISOmsg);
+
+                                //     AG_CODEAGENCE  = Resultats.AG_CODEAGENCE;
+
+
+                                //}
+
+
+
+                                //--4--Appel du service web de HT pour la comptabilisation
+
+
+                                String LG_CODELANGUE = "fr";
+                                //String AG_CODEAGENCE = "1000";
+                                String CO_CODECOMPTE = "";
+                                String CL_IDCLIENT = "";
+                                String MONTANTOPERATION = data.cpm_amount.ToString(); // CinetPayData.cpm_amount;
+                                String MONTANTOPERATIONSANSFRAIS = "0"; // CinetPayData.cpm_amount;
+                                String NO_CODENATUREVIREMENT = "0011";
+                                String SO_CODESOUSCRIPTION = "";
+                                String DATEJOURNEE = "";
+                                String TW_COMISSIONHT = "0";
+                                String TW_COMISSIONTMF = "0";
+                                String TW_COMISSIONOPERATEUR = "0";
+                                String TW_CODEVALIDATION = data.cpm_trans_id;// CinetPayVerificationStatutResultDatas[0].cpm_trans_id;
+                                String TO_CODETYPETRANSFERT = "18";
+                                string TYPEOPERATION = "01";
+                                string SL_LOGIN = "";
+                                string SL_MOTDEPASSE = "";
+                                string SL_CLESESSION = "";
+                                string SL_VERSIONAPK = "2";
+                                string OS_MACADRESSE = "1";
+                                string SL_UTILISATEUR = "00";
+                                String TO_INSERERDANSLATABLETRANSFERT = "N";
+                                String TO_VALIDEROPERATIONENCOURS = "O";
+
+
+                                //--5--Récupération des informations de la souscription
+                                UrlNotificationCinetPayPayIn.Models.clsObjetEnvoiInfoSouscriptionMobile clsObjetEnvoiInfoSouscriptionMobile = new UrlNotificationCinetPayPayIn.Models.clsObjetEnvoiInfoSouscriptionMobile();
+                                clsObjetEnvoiInfoSouscriptionMobile.AG_CODEAGENCE = AG_CODEAGENCE;// "1000";
+                                clsObjetEnvoiInfoSouscriptionMobile.SO_TELEPHONE = data.cel_phone_num;// CinetPayData.cel_phone_num;
+                                clsObjetEnvoiInfoSouscriptionMobile.LG_CODELANGUE = "fr";
+                                clsObjetEnvoiInfoSouscriptionMobile.TYPEOPERATION = "01";
+
+                                string jsonNF1 = JsonConvert.SerializeObject(clsObjetEnvoiInfoSouscriptionMobile);
+
+                                var httpWebRequest1 = (HttpWebRequest)WebRequest.Create(URL_ROOT_ADRESSE_API + "pvgInfoSousCriptionMobile");
+                                httpWebRequest1.ContentType = "application/json";
+                                httpWebRequest1.Method = "POST";
+
+                                //==================18/09/2020
+                                // using System.Net;
+                                // ServicePointManager.Expect100Continue = true;
+                                //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                                // Use SecurityProtocolType.Ssl3 if needed for compatibility reasons
+                                //==================
+
+                                using (var streamWriter = new StreamWriter(httpWebRequest1.GetRequestStream()))
+                                {
+                                    streamWriter.Write(jsonNF1);
+                                }
+                                ServicePointManager.CertificatePolicy = new TrustAllCertificatePolicy();
+
+
+                                var httpResponse1 = (HttpWebResponse)httpWebRequest1.GetResponse();
+                                using (var streamReader = new StreamReader(httpResponse1.GetResponseStream()))
+                                {
+                                    var response = streamReader.ReadToEnd();
+                                    String responses = response;
+                                    string NewISOmsg = responses.Substring(1, responses.Length - 2);
+                                    NewISOmsg = NewISOmsg.Replace("\"pvgInfoSousCriptionMobileResult\":", "");
+                                    UrlNotificationCinetPayPayIn.Models.clsInfoSouscriptionMobile Resultats = JsonConvert.DeserializeObject<UrlNotificationCinetPayPayIn.Models.clsInfoSouscriptionMobile>(NewISOmsg);
+                                    CO_CODECOMPTE = Resultats.CO_CODECOMPTE;
+                                    CL_IDCLIENT = Resultats.CL_IDCLIENT;
+                                    SO_CODESOUSCRIPTION = Resultats.SO_CODESOUSCRIPTION;
+                                    DATEJOURNEE = Resultats.DATEJOURNEE;
+
+                                }
+
+                                //--
+                                ObjetFRAIS objFRAIS = new ObjetFRAIS();
+                               /* objFRAIS.MONTANT = MONTANTOPERATION;
+                                objFRAIS.MONTANTMF = "0";
+                                objFRAIS.CODESERVICE = "";
+                                objFRAIS.LG_CODELANGUE = "FR";
+                                objFRAIS.TYPEOPERATION = "01";*/
+
+                                objFRAIS.MONTANT = MONTANTOPERATION ;
+                                objFRAIS.MONTANTMF = "0";
+                                objFRAIS.CODESERVICE = CODESERVICE;
+                                objFRAIS.TYPEOPERATION = "01";
+                                objFRAIS.AG_CODEAGENCE = AG_CODEAGENCE;
+                                objFRAIS.TO_CODETYPETRANSFERT = "18";
+                                objFRAIS.LG_CODELANGUE = "FR";
+
+                                string jsonNFFRAIS = JsonConvert.SerializeObject(objFRAIS);
+
+                                var httpWebRequestFRAIS = (HttpWebRequest)WebRequest.Create(URL_ROOT_ADRESSE_API + "pvgCommissioncinetpay");
+                                httpWebRequestFRAIS.ContentType = "application/json";
+                                httpWebRequestFRAIS.Method = "POST";
+
+                                using (var streamWriter = new StreamWriter(httpWebRequestFRAIS.GetRequestStream()))
+                                {
+                                    streamWriter.Write(jsonNFFRAIS);
+                                }
+                                ServicePointManager.CertificatePolicy = new TrustAllCertificatePolicy();
+
+
+                                var httpResponseFRAIS = (HttpWebResponse)httpWebRequestFRAIS.GetResponse();
+                                using (var streamReader = new StreamReader(httpResponseFRAIS.GetResponseStream()))
+                                {
+                                    var response = streamReader.ReadToEnd();
+                                    String responses = response;
+                                    string NewISOmsg = responses.Substring(1, responses.Length - 2);
+                                    NewISOmsg = NewISOmsg.Replace("\"pvgCommissioncinetpayResult\":", "");
+                                    UrlNotificationCinetPayPayIn.Models.clsMontant Resultats = JsonConvert.DeserializeObject<UrlNotificationCinetPayPayIn.Models.clsMontant>(NewISOmsg);
+                                    MONTANTOPERATIONSANSFRAIS = Resultats.SL_MONTANT;
+
+                                }
+
+                                //--
+
+
+
+
+
+                                //--6--Appel du service web de comptabilisation
+                                ObjetPaiement objNF = new ObjetPaiement();
+
+                                objNF.LG_CODELANGUE = LG_CODELANGUE;
+                                objNF.AG_CODEAGENCE = AG_CODEAGENCE;
+                                objNF.CO_CODECOMPTE = CO_CODECOMPTE;
+                                objNF.CL_IDCLIENT = CL_IDCLIENT;
+                                objNF.MONTANTOPERATION = MONTANTOPERATIONSANSFRAIS;// MONTANTOPERATION;
+                                objNF.NO_CODENATUREVIREMENT = NO_CODENATUREVIREMENT;
+                                objNF.SO_CODESOUSCRIPTION = SO_CODESOUSCRIPTION;
+                                objNF.DATEJOURNEE = DATEJOURNEE;
+                                objNF.TW_COMISSIONHT = TW_COMISSIONHT;
+                                objNF.TW_COMISSIONTMF = TW_COMISSIONTMF;
+                                objNF.TW_COMISSIONOPERATEUR = TW_COMISSIONOPERATEUR;
+                                objNF.TW_CODEVALIDATION = TW_CODEVALIDATION;
+                                objNF.TO_CODETYPETRANSFERT = TO_CODETYPETRANSFERT;
+                                objNF.TO_INSERERDANSLATABLETRANSFERT = TO_INSERERDANSLATABLETRANSFERT;
+                                objNF.TO_VALIDEROPERATIONENCOURS = TO_VALIDEROPERATIONENCOURS;
+                                objNF.TYPEOPERATION = TYPEOPERATION;
+                                objNF.SL_LOGIN = SL_LOGIN;
+                                objNF.SL_MOTDEPASSE = SL_MOTDEPASSE;
+                                objNF.SL_CLESESSION = SL_CLESESSION;
+                                objNF.SL_VERSIONAPK = SL_VERSIONAPK;
+                                objNF.OS_MACADRESSE = OS_MACADRESSE;
+                                objNF.SL_UTILISATEUR = SL_UTILISATEUR;
+                                objNF.IN_CODESERVICE = CODESERVICE;
+                                objNF.TYPE_APP = "CLIENT";
+
+
+                                string jsonNF = JsonConvert.SerializeObject(objNF);
+
+                                var httpWebRequest = (HttpWebRequest)WebRequest.Create(URL_ROOT_ADRESSE_API + "pvgMobileTransactionMobileBanking");
+                                httpWebRequest.ContentType = "application/json";
+                                httpWebRequest.Method = "POST";
+
+                                using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+                                {
+                                    streamWriter.Write(jsonNF);
+                                }
+
+                                var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                                using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+                                {
+                                    var response = streamReader.ReadToEnd();
+                                    String responses = response;
+
+                                    string NewISOmsg = responses.Substring(1, responses.Length - 2);
+                                    NewISOmsg = NewISOmsg.Replace("\"pvgMobileTransactionMobileBankingResult\":", "");
+                                    UrlNotificationCinetPayPayIn.Models.clsResultatMobileTransactionMobileBanking Resultats = JsonConvert.DeserializeObject<UrlNotificationCinetPayPayIn.Models.clsResultatMobileTransactionMobileBanking>(NewISOmsg);
+                                    Resultats1 = Resultats;
+                                }
+                            }
+
+                        }
+
+                        // sendsms("Traitement url notification ok : Transaction ok : " + cpm_trans_id + " " + data.cpm_error_message);
+                        loggerHT = new Modules.Logger();
+                        loggerHT.Log(path, "Error", "Traitement url notification ok : Transaction ok : " + cpm_trans_id + " " + data.cpm_error_message + " " + Resultats1.SL_RESULTAT + " " + Resultats1.SL_MESSAGE);
+                    }
+
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                //Execution du log
+                clsLog.EcrireDansFichierLog("Cinetpay :" + ex.Message);
+                //sendsms("Traitement url notification ok : Error : " + ex.Message +" " + cpm_trans_id);
+                loggerHT = new Modules.Logger();
+                loggerHT.Log(path, "error", "Traitement url notification ok: Error : " + ex.Message + " " + cpm_trans_id);
+            }
+
+            return View();
+        }
+
+        [HttpPost]//==Intouch
+        public ActionResult Indexintouch(string service_id, string gu_transaction_id, string status, string partner_transaction_id, string call_back_url, double commission, string message)
+        {
+            var culture = new System.Globalization.CultureInfo("fr-FR");
+            Thread.CurrentThread.CurrentCulture = culture;
+
+            string URL_ROOT_ADRESSE_API = ConfigurationManager.AppSettings["URL"];
+
+            string path = Server.MapPath("~/Loggers/");
+
+
+            //--Envoi de sms Appel url notification
+            loggerHT = new Modules.Logger();
+            loggerHT.Log(path, "Cinetpay", "Appel url notification ok rest traitement 0 : " + partner_transaction_id);
+            //sendsms("Appel url notification ok rest traitement 0 : " + cpm_trans_id);
+
+            //--Log Test
+            clsLog.EcrireDansFichierLog("Cinetpay :" + partner_transaction_id);
+
+            //--1-vérification des paramètres
+            //
+
+            ViewData["cpm_trans_id"] = partner_transaction_id;
+            if (partner_transaction_id == null || partner_transaction_id == "")
+                return View("Affiche");
+
+
+            string tran_id = partner_transaction_id;
+            string CODESERVICE = "";
+
+
+
+            UrlNotificationCinetPayPayIn.Models.clsResultatMobileTransactionMobileBanking Resultats1 = new Models.clsResultatMobileTransactionMobileBanking();
+
+            try
+            {
+                using (var webClient = new WebClient())
+                {
+                    //--3--Récupération des informations de l'agence
+                    UrlNotificationCinetPayPayIn.Models.clsObjetEnvoiInfoAgence clsObjetEnvoiInfoAgence = new Models.clsObjetEnvoiInfoAgence();
+                    clsObjetEnvoiInfoAgence.DT_NUMEROTRANSACTION = tran_id;
+                    clsObjetEnvoiInfoAgence.LG_CODELANGUE = "FR";
+                    string jsonAgence = JsonConvert.SerializeObject(clsObjetEnvoiInfoAgence);
+
+                    var httpWebRequest0 = (HttpWebRequest)WebRequest.Create(URL_ROOT_ADRESSE_API + "pvgInfoAgenceOperation");
+                    httpWebRequest0.ContentType = "application/json";
+                    httpWebRequest0.Method = "POST";
+
+
+                    using (var streamWriter = new StreamWriter(httpWebRequest0.GetRequestStream()))
+                    {
+                        streamWriter.Write(jsonAgence);
+                    }
+                    ServicePointManager.CertificatePolicy = new TrustAllCertificatePolicy();
+
+
+                    var httpResponse0 = (HttpWebResponse)httpWebRequest0.GetResponse();
+                    using (var streamReader = new StreamReader(httpResponse0.GetResponseStream()))
+                    {
+                        var response = streamReader.ReadToEnd();
+                        String responses = response;
+                        string NewISOmsg = responses.Substring(1, responses.Length - 2);
+                        NewISOmsg = NewISOmsg.Replace("\"pvgInfoAgenceOperationResult\":", "");
+                        UrlNotificationCinetPayPayIn.Models.clsInfoSouscriptionMobile Resultats = JsonConvert.DeserializeObject<UrlNotificationCinetPayPayIn.Models.clsInfoSouscriptionMobile>(NewISOmsg);
+
+                        AG_CODEAGENCE = Resultats.AG_CODEAGENCE;
+                        CODESERVICE = pvgServiceIdInToush(SO_TELEPHONE, "CASHIN");
+
+                        if (string.IsNullOrEmpty(AG_CODEAGENCE))
+                        {
+                            //ViewBag.Message = "Echec, votre paiement a échoué";
+                            ViewData["data"] = "Error: Récuperation d'agence !!!";
+                            // sendsms("Traitement url notification ok : Error : Echec, votre paiement a échoué: " + cpm_trans_id);
+
+                            loggerHT = new Modules.Logger();
+                            loggerHT.Log(path, "Error", "Récuperation d'agence !!! : " + partner_transaction_id);
+
+                            return View();
+                        }
+
+
+                    }
+                }
+
+
+
+
+                //==============SIRUS
+                CinetPayDTO model = new CinetPayDTO();
+                //CL_EMETTEUR = clsChaineCaractere.ClasseChaineCaractere.pvgDeCrypter(clsWebConfig.ReadSetting("Cpm_Site_Id"));
+                model.Mode = "PROD";
+                model.Apikey = clsChaineCaractere.ClasseChaineCaractere.pvgDeCrypter(clsWebConfig.ReadSetting("Apikey" + AG_CODEAGENCE));// "5665035245ff47b56c24de1.90155398";
+                model.Cpm_Site_Id = clsChaineCaractere.ClasseChaineCaractere.pvgDeCrypter(clsWebConfig.ReadSetting("Cpm_Site_Id" + AG_CODEAGENCE));// "595120";
+                model.Cpm_Trans_Id = tran_id;
+                //==============
+
+
+
+                ////string path = Server.MapPath("~/Loggers/");
+                //var cinetpayService = new CinetPaySdk(model);
+                //cinetpayService.Path = path;
+                //var data = cinetpayService.GetPayStatus();
+                if (status != "SUCCESSFUL")
+                {
+                    //ViewBag.Message = "Echec, votre paiement a échoué";
+                    ViewData["data"] = "Error";
+                    // sendsms("Traitement url notification ok : Error : Echec, votre paiement a échoué: " + cpm_trans_id);
+
+                    loggerHT = new Modules.Logger();
+                    loggerHT.Log(path, "Error", "Traitement url notification ok : Error : Echec, votre paiement a échoué: " + partner_transaction_id);
+                }
+                else
+                {
+                    //ViewBag.Message = "Felicitation, votre paiement a été effectué avec succès";
+                    if (status != null)
+                    {
+                        //ViewData["data"] = data;
+
+
+                        ViewData["service_id"] = service_id;
+                        ViewData["gu_transaction_id"] = gu_transaction_id;
+                        ViewData["status"] = status;
+                        ViewData["partner_transaction_id"] = partner_transaction_id;
+                        ViewData["call_back_url"] = call_back_url;
+
+                        if (status == "00")
+                        {
+                            loggerHT = new Modules.Logger();
+                            loggerHT.Log(path, "success", "Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: " + partner_transaction_id);
+                            // sendsms("Traitement url notification ok : success : Felicitation, votre paiement a été effectué avec succès: " + cpm_trans_id);
+
+                            String DT_NUMEROTRANSACTION = partner_transaction_id;//
+
+                            //string service_id,  string gu_transaction_id,string status,string partner_transaction_id,string call_back_url,double commission,string message
+
+                            using (var webClient = new WebClient())
+                            {
+
+                                //--4--Appel du service web de HT pour la comptabilisation
+
+
+                                String LG_CODELANGUE = "fr";
+                                //String AG_CODEAGENCE = "1000";
+                                String CO_CODECOMPTE = "";
+                                String CL_IDCLIENT = "";
+                                String MONTANTOPERATION = commission.ToString(); // CinetPayData.cpm_amount;
+                                String MONTANTOPERATIONSANSFRAIS = "0"; // CinetPayData.cpm_amount;
+                                String NO_CODENATUREVIREMENT = "0011";
+                                String SO_CODESOUSCRIPTION = "";
+                                String DATEJOURNEE = "";
+                                String TW_COMISSIONHT = "0";
+                                String TW_COMISSIONTMF = "0";
+                                String TW_COMISSIONOPERATEUR = "0";
+                                String TW_CODEVALIDATION = partner_transaction_id;// CinetPayVerificationStatutResultDatas[0].cpm_trans_id;
+                                String TO_CODETYPETRANSFERT = "18";
+                                string TYPEOPERATION = "01";
+                                string SL_LOGIN = "";
+                                string SL_MOTDEPASSE = "";
+                                string SL_CLESESSION = "";
+                                string SL_VERSIONAPK = "2";
+                                string OS_MACADRESSE = "1";
+                                string SL_UTILISATEUR = "00";
+                                String TO_INSERERDANSLATABLETRANSFERT = "N";
+                                String TO_VALIDEROPERATIONENCOURS = "O";
+
+
+                                //--5--Récupération des informations de la souscription
+                                UrlNotificationCinetPayPayIn.Models.clsObjetEnvoiInfoSouscriptionMobile clsObjetEnvoiInfoSouscriptionMobile = new UrlNotificationCinetPayPayIn.Models.clsObjetEnvoiInfoSouscriptionMobile();
+                                clsObjetEnvoiInfoSouscriptionMobile.AG_CODEAGENCE = AG_CODEAGENCE;// "1000";
+                                clsObjetEnvoiInfoSouscriptionMobile.SO_TELEPHONE = "2250747839553";// CinetPayData.cel_phone_num;
+                                clsObjetEnvoiInfoSouscriptionMobile.LG_CODELANGUE = "fr";
+                                clsObjetEnvoiInfoSouscriptionMobile.TYPEOPERATION = "01";
+
+                                string jsonNF1 = JsonConvert.SerializeObject(clsObjetEnvoiInfoSouscriptionMobile);
+
+                                var httpWebRequest1 = (HttpWebRequest)WebRequest.Create(URL_ROOT_ADRESSE_API + "pvgInfoSousCriptionMobile");
+                                httpWebRequest1.ContentType = "application/json";
+                                httpWebRequest1.Method = "POST";
+
+                                //==================18/09/2020
+                                // using System.Net;
+                                // ServicePointManager.Expect100Continue = true;
+                                //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                                // Use SecurityProtocolType.Ssl3 if needed for compatibility reasons
+                                //==================
+
+                                using (var streamWriter = new StreamWriter(httpWebRequest1.GetRequestStream()))
+                                {
+                                    streamWriter.Write(jsonNF1);
+                                }
+                                ServicePointManager.CertificatePolicy = new TrustAllCertificatePolicy();
+
+
+                                var httpResponse1 = (HttpWebResponse)httpWebRequest1.GetResponse();
+                                using (var streamReader = new StreamReader(httpResponse1.GetResponseStream()))
+                                {
+                                    var response = streamReader.ReadToEnd();
+                                    String responses = response;
+                                    string NewISOmsg = responses.Substring(1, responses.Length - 2);
+                                    NewISOmsg = NewISOmsg.Replace("\"pvgInfoSousCriptionMobileResult\":", "");
+                                    UrlNotificationCinetPayPayIn.Models.clsInfoSouscriptionMobile Resultats = JsonConvert.DeserializeObject<UrlNotificationCinetPayPayIn.Models.clsInfoSouscriptionMobile>(NewISOmsg);
+                                    CO_CODECOMPTE = Resultats.CO_CODECOMPTE;
+                                    CL_IDCLIENT = Resultats.CL_IDCLIENT;
+                                    SO_CODESOUSCRIPTION = Resultats.SO_CODESOUSCRIPTION;
+                                    DATEJOURNEE = Resultats.DATEJOURNEE;
+
+                                }
+
+                                //--
+                                ObjetFRAIS objFRAIS = new ObjetFRAIS();
+                                objFRAIS.MONTANT = MONTANTOPERATION;
+                                objFRAIS.MONTANTMF = "0";
+                                objFRAIS.LG_CODELANGUE = "FR";
+                                objFRAIS.TYPEOPERATION = "01";
+
+                                string jsonNFFRAIS = JsonConvert.SerializeObject(objFRAIS);
+
+                                var httpWebRequestFRAIS = (HttpWebRequest)WebRequest.Create(URL_ROOT_ADRESSE_API + "pvgCommissioncinetpay");
+                                httpWebRequestFRAIS.ContentType = "application/json";
+                                httpWebRequestFRAIS.Method = "POST";
+
+                                using (var streamWriter = new StreamWriter(httpWebRequestFRAIS.GetRequestStream()))
+                                {
+                                    streamWriter.Write(jsonNFFRAIS);
+                                }
+                                ServicePointManager.CertificatePolicy = new TrustAllCertificatePolicy();
+
+
+                                var httpResponseFRAIS = (HttpWebResponse)httpWebRequestFRAIS.GetResponse();
+                                using (var streamReader = new StreamReader(httpResponseFRAIS.GetResponseStream()))
+                                {
+                                    var response = streamReader.ReadToEnd();
+                                    String responses = response;
+                                    string NewISOmsg = responses.Substring(1, responses.Length - 2);
+                                    NewISOmsg = NewISOmsg.Replace("\"pvgCommissioncinetpayResult\":", "");
+                                    UrlNotificationCinetPayPayIn.Models.clsMontant Resultats = JsonConvert.DeserializeObject<UrlNotificationCinetPayPayIn.Models.clsMontant>(NewISOmsg);
+                                    MONTANTOPERATIONSANSFRAIS = Resultats.SL_MONTANT;
+
+                                }
+
+                                //--
+
+
+
+
+
+                                //--6--Appel du service web de comptabilisation
+                                ObjetPaiement objNF = new ObjetPaiement();
+
+                                objNF.LG_CODELANGUE = LG_CODELANGUE;
+                                objNF.AG_CODEAGENCE = AG_CODEAGENCE;
+                                objNF.CO_CODECOMPTE = CO_CODECOMPTE;
+                                objNF.CL_IDCLIENT = CL_IDCLIENT;
+                                objNF.MONTANTOPERATION = MONTANTOPERATIONSANSFRAIS;// MONTANTOPERATION;
+                                objNF.NO_CODENATUREVIREMENT = NO_CODENATUREVIREMENT;
+                                objNF.SO_CODESOUSCRIPTION = SO_CODESOUSCRIPTION;
+                                objNF.DATEJOURNEE = DATEJOURNEE;
+                                objNF.TW_COMISSIONHT = TW_COMISSIONHT;
+                                objNF.TW_COMISSIONTMF = TW_COMISSIONTMF;
+                                objNF.TW_COMISSIONOPERATEUR = TW_COMISSIONOPERATEUR;
+                                objNF.TW_CODEVALIDATION = TW_CODEVALIDATION;
+                                objNF.TO_CODETYPETRANSFERT = TO_CODETYPETRANSFERT;
+                                objNF.TYPEOPERATION = TYPEOPERATION;
+                                objNF.TO_INSERERDANSLATABLETRANSFERT = TO_INSERERDANSLATABLETRANSFERT;
+                                objNF.TO_VALIDEROPERATIONENCOURS = TO_VALIDEROPERATIONENCOURS;
+                                objNF.SL_LOGIN = SL_LOGIN;
+                                objNF.SL_MOTDEPASSE = SL_MOTDEPASSE;
+                                objNF.SL_CLESESSION = SL_CLESESSION;
+                                objNF.SL_VERSIONAPK = SL_VERSIONAPK;
+                                objNF.OS_MACADRESSE = OS_MACADRESSE;
+                                objNF.SL_UTILISATEUR = SL_UTILISATEUR;
+
+
+
+                                string jsonNF = JsonConvert.SerializeObject(objNF);
+
+                                var httpWebRequest = (HttpWebRequest)WebRequest.Create(URL_ROOT_ADRESSE_API + "pvgMobileTransactionMobileBanking");
+                                httpWebRequest.ContentType = "application/json";
+                                httpWebRequest.Method = "POST";
+
+                                using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+                                {
+                                    streamWriter.Write(jsonNF);
+                                }
+
+                                var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                                using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+                                {
+                                    var response = streamReader.ReadToEnd();
+                                    String responses = response;
+
+                                    string NewISOmsg = responses.Substring(1, responses.Length - 2);
+                                    NewISOmsg = NewISOmsg.Replace("\"pvgMobileTransactionMobileBankingResult\":", "");
+                                    UrlNotificationCinetPayPayIn.Models.clsResultatMobileTransactionMobileBanking Resultats = JsonConvert.DeserializeObject<UrlNotificationCinetPayPayIn.Models.clsResultatMobileTransactionMobileBanking>(NewISOmsg);
+                                    Resultats1 = Resultats;
+                                }
+                            }
+
+                        }
+                        //string service_id,  string gu_transaction_id,string status,string partner_transaction_id,string call_back_url,double commission,string message
+                        // sendsms("Traitement url notification ok : Transaction ok : " + cpm_trans_id + " " + data.cpm_error_message);
+                        loggerHT = new Modules.Logger();
+                        loggerHT.Log(path, "Error", "Traitement url notification ok : Transaction ok : " + partner_transaction_id + " " + message + " " + Resultats1.SL_RESULTAT + " " + Resultats1.SL_MESSAGE);
+                    }
+
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                //Execution du log
+                clsLog.EcrireDansFichierLog("Cinetpay :" + ex.Message);
+                //sendsms("Traitement url notification ok : Error : " + ex.Message +" " + cpm_trans_id);
+                loggerHT = new Modules.Logger();
+                loggerHT.Log(path, "error", "Traitement url notification ok: Error : " + ex.Message + " " + partner_transaction_id);
+            }
+
+            return View();
+        }
+
+
+        //Envoi de mail
+        public void sendmail(string pvgTitre, string vppMessage, string vppMailExpediteur, string vppMotDePasseExpediteur, string vppMailRecepteur, string vppCheminCompletFichierEnvoyer1, string vppCheminCompletFichierEnvoyer2, string vppCheminCompletFichierEnvoyer3)
+        {
+            try
+            {
+                ////-I-Préparation du fichier
+                //ReportDocument cryRpt;
+
+                ////string pdfFile = "c:\\csharp.net-informations.pdf";
+                //string pdfFile = vppCheminCompletFichierPDFEnvoyer;
+                //cryRpt = new ReportDocument();
+                //string PATH = Application.StartupPath + "\\Etats\\" + vappFichier;
+                //cryRpt.Load(PATH);
+                //cryRpt.SetDataSource(vappTable.Tables[0]);
+                //for (int Idx = 0; Idx < vappNomFormule.GetLength(0); Idx++)
+                //{
+                //    string vlpNomFormule = vappNomFormule[Idx].ToString();
+                //    string vlpValeurFormule = vappValeurFormule[Idx].ToString();
+                //    cryRpt.DataDefinition.FormulaFields[vlpNomFormule].Text = "'" + vlpValeurFormule.Replace("'", "''") + "'";
+
+                //}
+
+                //CrystalReportViewer crystalReportViewer1 = new CrystalReportViewer();
+                //crystalReportViewer1.ReportSource = cryRpt;
+                //crystalReportViewer1.Refresh();
+
+                ////-II-Exportation du fichier
+                //ExportOptions CrExportOptions;
+                //DiskFileDestinationOptions CrDiskFileDestinationOptions = new DiskFileDestinationOptions();
+                //PdfRtfWordFormatOptions CrFormatTypeOptions = new PdfRtfWordFormatOptions();
+                //CrDiskFileDestinationOptions.DiskFileName = pdfFile;
+                //CrExportOptions = cryRpt.ExportOptions;
+                //CrExportOptions.ExportDestinationType = ExportDestinationType.DiskFile;
+                //CrExportOptions.ExportFormatType = ExportFormatType.PortableDocFormat;
+                //CrExportOptions.DestinationOptions = CrDiskFileDestinationOptions;
+                //CrExportOptions.FormatOptions = CrFormatTypeOptions;
+                //cryRpt.Export();
+
+                //-III-Envoi du fichier par mail
+                System.Net.Mail.MailMessage mm = null;
+                //if (clsChaineCaractere.ClasseChaineCaractere.pvgValidationEmail(vppMailExpediteur) != false && clsChaineCaractere.ClasseChaineCaractere.pvgValidationEmail(vppMailRecepteur) != false)
+                mm = new System.Net.Mail.MailMessage(vppMailExpediteur, vppMailRecepteur);
+                // Contenu du message
+                if (mm != null)
+                {
+                    mm.Subject = pvgTitre;
+                    mm.Body = vppMessage;
+                }
+                //if (clsChaineCaractere.ClasseChaineCaractere.pvgValidationEmail(vppMailExpediteur) != false && clsChaineCaractere.ClasseChaineCaractere.pvgValidationEmail(vppMailRecepteur2) != false)
+                //    mm.CC.Add(vppMailRecepteur2);
+
+                //Ajoute des fichiers joints
+                if (vppCheminCompletFichierEnvoyer1 != "")
+                    mm.Attachments.Add(new Attachment(vppCheminCompletFichierEnvoyer1));
+                if (vppCheminCompletFichierEnvoyer2 != "")
+                    mm.Attachments.Add(new Attachment(vppCheminCompletFichierEnvoyer2));
+                if (vppCheminCompletFichierEnvoyer3 != "")
+                    mm.Attachments.Add(new Attachment(vppCheminCompletFichierEnvoyer3));
+
+                // Sending message
+                SmtpClient sc = new SmtpClient("smtp.gmail.com", 587);
+
+                if (vppMailExpediteur != null)
+                {
+                    // Le compte credentials
+                    //if (clsChaineCaractere.ClasseChaineCaractere.pvgValidationEmail(vppMailExpediteur) != false)
+                    sc.Credentials = new NetworkCredential(vppMailExpediteur, vppMotDePasseExpediteur, "");
+                    sc.EnableSsl = true;
+
+                    // Envoie du message
+                    try
+                    {
+                        //if (clsChaineCaractere.ClasseChaineCaractere.pvgValidationEmail(vppMailExpediteur) != false)
+                        sc.Send(mm);
+                        // MessageBox.Show("Message sent");
+                    }
+                    catch (Exception ex)
+                    {
+                        //MessageBox.Show("Error: " + ex.Message);
+                    }
+                }
+
+
+
+
+                ////
+
+                ////SmtpMail.SmtpServer.Insert(587,"smtp.gmail.com");
+                ////System.Web.Mail.MailMessage Msg = new System.Web.Mail.MailMessage();
+                ////Msg.To = "d.baz1008@gmail.com";
+                ////Msg.From = "d.baz1008@gmail.com";
+                ////Msg.Subject = "Crystal Report Attachment ";
+                ////Msg.Body = "Crystal Report Attachment ";
+                ////Msg.Attachments.Add(new MailAttachment(pdfFile));
+                ////System.Web.Mail.SmtpMail.Send(Msg);
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.ToString());
+                return;
+            }
+        }
+        public void sendsms(string Message)
+        {
+            //=========================================================
+            //string Authheader = "HOMETEST" + ":" + "HomeTech2020";
+            string Authheader = "celpaid" + ":" + "Celp@#d20#";
+
+            Authheader = Base64Encode(Authheader);
+
+
+            string sURL;
+
+            StreamReader objReader;
+
+            //if (CL_FOURNISSEURAPI == "INFOBIP")
+            //{
+
+            //================================INFOBIP
+            string webAddr = "https://api.infobip.com/sms/1/text/single";// ok
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create(webAddr);// ok
+            httpWebRequest.ContentType = "application/json";// ok
+            httpWebRequest.Accept = "application/json";// ok
+            ServicePointManager.ServerCertificateValidationCallback += (sender, certificate, chain, sslPolicyErrors) => true;
+
+            //==========================================================================================================
+            // Le login : TECHNOLOGYH
+            //Le mot de passe : Dev1HoM6
+            //TECHNOLOGYH:Dev1HoM6= (VEVDSE5PTE9HWUg6RGV2MUhvTTY=) c'est la combinaison du login et du mot de passe  . 
+            //--le cryptage de cette combinaison peut se faire sur le site https://www.base64encode.org/ 
+            //===========================================================================================================
+
+            string senderName = "celpaid";
+
+            string phone = "2250747839553";
+            try
+            {
+                httpWebRequest.Headers.Add("Authorization", " Basic " + Authheader);
+                httpWebRequest.Method = "POST";// ok
+
+                using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+                {
+                    string json = "{\"from\":\"" + senderName + "\", \"to\":\"" + phone + "\",\"text\":\"" + Message + "\"}";
+                    streamWriter.Write(json);
+                    streamWriter.Flush();
+                }
+
+
+
+                var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+                {
+                    var result = streamReader.ReadToEnd();
+
+                    result = result.Substring(12, result.Length - 12);
+
+                    result = result.Substring(0, result.Length - 1);
+                    String response = result;
+                    //messages messages = new messages();
+
+                    //List<message> message = JsonConvert.DeserializeObject<List<message>>(response);
+
+                    //if (message[0].status.groupName == "PENDING")
+                    //{
+                    //    //clsParams clsParamsss = new clsParams();
+                    //    //clsParamsss.SL_MESSAGE = "Opération réalisée avec succès !!!";
+                    //    //clsParamsss.SL_RESULTAT = "TRUE";
+                    //    //clsParamsss.SL_CODEMESSAGE = "00";
+                    //    //clsParamsss.SM_NUMSEQUENCE = clsParams.SM_NUMSEQUENCE;
+                    //    //clsParamsListe.Add(clsParamsss);
+                    //}
+                    //else
+                    //{
+                    //    //clsParams clsParamsss = new clsParams();
+                    //    //clsParamsss.SL_MESSAGE = "Echec d'envoi de sms : le numéro du destinataire est invalide  !!!";
+                    //    //clsParamsss.SL_RESULTAT = "FALSE";
+                    //    //clsParamsss.SL_CODEMESSAGE = "99";
+                    //    //clsParamsss.SM_NUMSEQUENCE = clsParams.SM_NUMSEQUENCE;
+                    //    //clsParamsListe.Add(clsParamsss);
+                    //}
+
+
+                    //return clsParamsListe;
+                }
+            }
+
+            catch (Exception ex)
+            {
+                //clsParams clsParamsss = new clsParams();
+                //clsParamsss.SL_MESSAGE = ex.Message.ToString();
+                //clsParamsss.SL_RESULTAT = "FALSE";
+                //clsParamsss.SL_CODEMESSAGE = "99";
+                //clsParamsss.SM_NUMSEQUENCE = clsParams.SM_NUMSEQUENCE;
+                //clsParamsListe.Add(clsParamsss);
+                //return clsParamsListe;
+
+            }
+
+            //}
+
+            //=========================================================
+        }
+        public string Base64Encode(string plainText)
+        {
+            var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+            return System.Convert.ToBase64String(plainTextBytes);
+        }
+
+        enum typeOperationIntouch { CASHIN, CASHOUT }
+        enum Operationcashin { CASHINOMCIPART, CASHINMTNPART, CASHINMOOVPART }
+        enum Operationcashout { PAIEMENTMARCHAND_MOOV_CI, PAIEMENTMARCHAND_MTN_CI, PAIEMENTMARCHANDOMPAYCI }
+        public string pvgServiceIdInToush(string numero, string typeOperation)
+        {
+
+            string vlpCodeService = "";
+            int vlpTaillenumero = numero.Length;
+            int prefixenumero = 0;
+            prefixenumero = int.Parse(numero.Substring(1, 1));
+
+            if (typeOperation == "CASHIN")
+            {
+                if (UrlNotificationCinetPayPayIn.Modules.clsNombreMontant1.Between(prefixenumero, 1, 3))
+                {
+                    Operationcashin a = Operationcashin.CASHINMOOVPART;
+                    vlpCodeService = a.ToString();
+                }
+                else
+                if (UrlNotificationCinetPayPayIn.Modules.clsNombreMontant1.Between(prefixenumero, 4, 6))
+                {
+                    Operationcashin a = Operationcashin.CASHINMTNPART;
+                    vlpCodeService = a.ToString();
+                }
+                else
+                {
+                    Operationcashin a = Operationcashin.CASHINOMCIPART;
+                    vlpCodeService = a.ToString();
+                }
+            }
+
+
+            if (typeOperation == "CASHOUT")
+            {
+                if (UrlNotificationCinetPayPayIn.Modules.clsNombreMontant1.Between(prefixenumero, 1, 3))
+                {
+                    Operationcashout a = Operationcashout.PAIEMENTMARCHAND_MOOV_CI;
+                    vlpCodeService = a.ToString();
+                }
+                else
+                if (UrlNotificationCinetPayPayIn.Modules.clsNombreMontant1.Between(prefixenumero, 4, 6))
+                {
+                    Operationcashout a = Operationcashout.PAIEMENTMARCHAND_MTN_CI;
+                    vlpCodeService = a.ToString();
+                }
+                else
+                {
+                    Operationcashout a = Operationcashout.PAIEMENTMARCHANDOMPAYCI;
+                    vlpCodeService = a.ToString();
+                }
+            }
+
+
+
+            return vlpCodeService;
+        }
+
+
+        public class ObjetPaiement
+        {
+            public String LG_CODELANGUE { get; set; }
+            public String AG_CODEAGENCE { get; set; }
+            public String CO_CODECOMPTE { get; set; }
+            public String CL_IDCLIENT { get; set; }
+            public String MONTANTOPERATION { get; set; }
+            public String NO_CODENATUREVIREMENT { get; set; }
+            public String SO_CODESOUSCRIPTION { get; set; }
+            public String DATEJOURNEE { get; set; }
+            public String TW_COMISSIONHT { get; set; }
+            public String TW_COMISSIONTMF { get; set; }
+            public String TW_COMISSIONOPERATEUR { get; set; }
+            public String TW_CODEVALIDATION { get; set; }
+            public String TO_CODETYPETRANSFERT { get; set; }
+            public String TYPEOPERATION { get; set; }
+            public String SL_LOGIN { get; set; }
+            public String SL_MOTDEPASSE { get; set; }
+            public String SL_CLESESSION { get; set; }
+            public String SL_VERSIONAPK { get; set; }
+            public String OS_MACADRESSE { get; set; }
+            public String SL_UTILISATEUR { get; set; }
+            public String IN_CODESERVICE { get; set; }
+            public String TYPE_APP { get; set; }
+            public String TO_INSERERDANSLATABLETRANSFERT { get; set; }
+            public String TO_VALIDEROPERATIONENCOURS { get; set; }
+
+
+        }
+
+
+        public class ObjetFRAIS
+        {
+            public String MONTANT { get; set; }
+            public String MONTANTMF { get; set; }
+            public String CODESERVICE { get; set; }
+            public String TYPEOPERATION { get; set; }
+            public String AG_CODEAGENCE { get; set; }
+            public String TO_CODETYPETRANSFERT { get; set; }
+            public String LG_CODELANGUE { get; set; }
+
+        }
+
+
+    }
+}

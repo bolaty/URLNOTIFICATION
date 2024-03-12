@@ -1,0 +1,4 @@
+2023-10-20 12:28:55,734 [6] ERROR LogFileAppender - Cinetpay :00100d54b6cfe-1613-4327-91d0-c473bf364c69
+2023-10-20 12:30:16,721 [6] ERROR LogFileAppender - Cinetpay :Le serveur distant a retourné une erreur : (404) Introuvable.
+2023-10-20 12:36:32,756 [12] ERROR LogFileAppender - Cinetpay :00100d54b6cfe-1613-4327-91d0-c473bf364c69
+2023-10-20 12:36:42,685 [12] ERROR LogFileAppender - Cinetpay :La référence d'objet n'est pas définie à une instance d'un objet.
